@@ -1,4 +1,6 @@
-Skin to show Taiwan AQI (Air Quality Index)
+Skin for Rainmeter to show Taiwan AQI (Air Quality Index)
+
+Rainmeter面板, 顯示台灣AQI (Air Quality Index)數值跟資訊
 
 資料來源: 行政院環境保護署 環境資源資料開放平臺
 
