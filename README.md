@@ -43,3 +43,11 @@
 * 新增夜晚背景圖
 * 新增空氣品質條狀圖
 * 其他小調整
+
+### Version 1.1 / 2019-04-03
+* 更名為 TaiwanWeatherAQI
+* 增加顯示天氣資訊
+* 增加AQI測站名滑鼠左鍵雙擊顯示測站位置 (Google Map)
+
+### Version 1.0 / 2019-04-02
+* First release
