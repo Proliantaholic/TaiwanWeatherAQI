@@ -1,6 +1,6 @@
 ## Taiwan Weather and AQI (Air Quality Index) 臺灣天氣和空氣品質指標
 ## Rainmeter Skin / Rainmeter 面板
-> 顯示臺灣天氣資料和環保署空氣品質監測站的空氣品質指標(AQI, Air Quality Index)和PM2.5概況
+> 顯示臺灣天氣資料和環保署空氣品質監測站的空氣品質指標(AQI, Air Quality Index)和PM<sub>2.5</sub>概況
 
 本說明亦發表在: [proliantaholic.blogspot.com](https://proliantaholic.blogspot.com/2019/04/TaiwanWeatherAQI.html)
 
@@ -26,7 +26,7 @@
 * AQI數字: 環境保護署 環境資源資料開放平台 空氣品質指標(AQI)
 * AQI狀態圖案/文字/條狀圖: 空氣品質指標(AQI)與健康影響及活動建議說明
 * 測站名稱文字: 該測站之即時影像還有位置 (Google Map)
-* PM2.5/數字: 環境保護署 空氣品質監測網
+* PM<sub>2.5</sub>/數字: 環境保護署 空氣品質監測網
 
 ----
 ## 資料來源與授權
