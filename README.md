@@ -34,7 +34,7 @@
 ## 資料來源與授權
 * 空氣品質: 行政院環境保護署 環境資源資料開放平臺
 * 天氣資料與日出日沒時間: 中央氣象局
-* 授權方式: 依政府資料開放平臺使用規範 https://data.gov.tw/license/legacy
+* 授權方式: [依政府資料開放平臺使用規範](https://data.gov.tw/license/legacy)
 
 ----
 ## Changelog
