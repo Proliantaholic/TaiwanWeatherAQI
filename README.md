@@ -2,8 +2,10 @@
 ## Rainmeter Skin / Rainmeter 面板
 > 顯示臺灣天氣資料和環保署空氣品質監測站的空氣品質指標(AQI, Air Quality Index)和PM<sub>2.5</sub>概況
 
-本說明亦發表在: [proliantaholic.blogspot.com](https://proliantaholic.blogspot.com/2019/04/TaiwanWeatherAQI.html)
-![alt text](https://tinyurl.com/yxzfx4eu)
+#### 本說明亦發表在: [proliantaholic.blogspot.com](https://proliantaholic.blogspot.com/2019/04/TaiwanWeatherAQI.html)
+
+![proliantaholic.blogspot.com](https://tinyurl.com/yxzfx4eu)
+
 ----
 ## 使用說明
 
