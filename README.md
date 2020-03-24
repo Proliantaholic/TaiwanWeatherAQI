@@ -10,15 +10,21 @@
 ## 使用說明
 
 ### 安裝
-* 下載[TaiwanWeatherAQI_x.x.rmskin](https://github.com/Proliantaholic/TaiwanWeatherAQI/raw/master/TaiwanWeatherAQI_1.11.rmskin), 使用 Rainmeter 的 SkinInstaller.exe 安裝.
+* 下載[TaiwanWeatherAQI_x.x.rmskin](https://github.com/Proliantaholic/TaiwanWeatherAQI/raw/master/TaiwanWeatherAQI_1.12.rmskin), 使用 Rainmeter 的 SkinInstaller.exe 安裝.
 
 ### 設定
 指定天氣地點(WsiteName)和空氣品質監測站(AirSiteName)名稱:
 * 在 Settings.txt 內設定. (在 TaiwanWeatherAQI\@RESOURCES\Settings 目錄內)
-* 也可以在面板上按右鍵 -> 自訂面板動作 -> 指定天氣地點和空品測站(手動) (會打開 Settings.txt)
+* 在面板上按右鍵 -> 自訂面板動作 -> 指定天氣地點和空品測站(手動) (會打開 Settings.txt)
 * 或是選擇自訂面板動作選單列出的天氣地點和空品測站.
-* 天氣地點可參考: [即時天氣資料](https://opendata.epa.gov.tw/Data/Contents/ATM00698/) 地點欄位. 例如: 陽明山
-* 測站名稱可參考: [空氣品質監測站基本資料](https://opendata.epa.gov.tw/Data/Contents/AQXSite/) 測站名稱欄位. 例如:中山
+
+也可以透過滑鼠右鍵單擊不同區域變更設定: (輸入後請按Enter確定變更)
+* 天氣地點文字: 天氣地點(WsiteName)
+* 空品測站文字: 空氣品質監測站(AirSiteName)名稱
+
+天氣地點可參考: [即時天氣資料](https://opendata.epa.gov.tw/Data/Contents/ATM00698/) 地點欄位. 例如: 陽明山
+
+測站名稱可參考: [空氣品質監測站基本資料](https://opendata.epa.gov.tw/Data/Contents/AQXSite/) 測站名稱欄位. 例如:中山
 
 ### 使用
 用滑鼠左鍵雙擊不同區域可以帶出不同資訊:
@@ -38,6 +44,13 @@
 
 ----
 ## Changelog
+### Version 1.12 / 2020-03-24
+* 調整 Settings.txt
+* 新增 天氣圖示對應: 多雲有雷聲, 多雲有雨, 多雲有閃電, 晴有雷聲, 有雨, 大雷雨
+* 新增 滑鼠右鍵單擊變更設定: 天氣地點, 空品測站
+* 修正 空氣品質指標(AQI)與健康影響及活動建議說明連結
+
+
 ### Version 1.11 / 2019-04-21
 * 調整 介面調整
 * 調整 資料更新頻率
@@ -53,7 +66,7 @@
 ### Version 1.1 / 2019-04-03
 * 更名為 TaiwanWeatherAQI
 * 增加顯示天氣資訊
-* 增加AQI測站名滑鼠左鍵雙擊顯示測站位置 (Google Map)
+* 增加AQI測站名滑鼠左鍵雙擊顯示測站位置 (Google Maps)
 
 ### Version 1.0 / 2019-04-02
 * First release
