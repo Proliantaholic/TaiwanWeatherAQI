@@ -10,7 +10,7 @@
 ## 使用說明
 
 ### 安裝
-* 下載[TaiwanWeatherAQI_x.x.rmskin](https://github.com/Proliantaholic/TaiwanWeatherAQI/raw/master/TaiwanWeatherAQI_1.12.rmskin), 使用 Rainmeter 的 SkinInstaller.exe 安裝.
+* 下載 [![TaiwanWeatherAQI](https://img.shields.io/badge/TaiwanWeatherAQI.rmskin-v1.12-brightgreen.svg)](https://github.com/Proliantaholic/TaiwanWeatherAQI/raw/master/TaiwanWeatherAQI_1.12.rmskin) 然後使用 [Rainmeter](https://www.rainmeter.net) 的 SkinInstaller.exe 安裝.
 
 ### 設定
 指定天氣地點(WsiteName)和空氣品質監測站(AirSiteName)名稱:
