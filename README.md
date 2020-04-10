@@ -1,4 +1,4 @@
-## Taiwan Weather and AQI (Air Quality Index) 臺灣天氣和空氣品質指標 [![TaiwanWeatherAQI](https://img.shields.io/badge/release-v1.12-brightgreen.svg)](https://github.com/Proliantaholic/TaiwanWeatherAQI/raw/master/TaiwanWeatherAQI_1.12.rmskin) [![TaiwanWeatherAQI](https://img.shields.io/github/license/Proliantaholic/TaiwanWeatherAQI?color=blue)](https://raw.githubusercontent.com/Proliantaholic/TaiwanWeatherAQI/master/LICENSE)
+## Taiwan Weather and AQI (Air Quality Index) 臺灣天氣和空氣品質指標 [![TaiwanWeatherAQI](https://img.shields.io/badge/release-v1.13-brightgreen.svg)](https://github.com/Proliantaholic/TaiwanWeatherAQI/raw/master/TaiwanWeatherAQI_1.13.rmskin) [![TaiwanWeatherAQI](https://img.shields.io/github/license/Proliantaholic/TaiwanWeatherAQI?color=blue)](https://raw.githubusercontent.com/Proliantaholic/TaiwanWeatherAQI/master/LICENSE)
 ## Rainmeter Skin / Rainmeter 面板
 > 顯示臺灣天氣資料和環保署空氣品質監測站的空氣品質指標(AQI, Air Quality Index)和PM<sub>2.5</sub>概況
 
@@ -10,7 +10,7 @@
 ## 使用說明
 
 ### 安裝
-* 下載 [![TaiwanWeatherAQI](https://img.shields.io/badge/TaiwanWeatherAQI.rmskin-v1.12-brightgreen.svg)](https://github.com/Proliantaholic/TaiwanWeatherAQI/raw/master/TaiwanWeatherAQI_1.12.rmskin) 然後使用 [Rainmeter](https://www.rainmeter.net) 的 SkinInstaller.exe 安裝.
+* 下載 [![TaiwanWeatherAQI](https://img.shields.io/badge/TaiwanWeatherAQI.rmskin-v1.13-brightgreen.svg)](https://github.com/Proliantaholic/TaiwanWeatherAQI/raw/master/TaiwanWeatherAQI_1.13.rmskin) 然後使用 [Rainmeter](https://www.rainmeter.net) 的 SkinInstaller.exe 安裝.
 
 ### 設定
 指定天氣地點(WsiteName)和空氣品質監測站(AirSiteName)名稱:
@@ -33,23 +33,27 @@
 * 日出日沒時間/城市文字: 中央氣象局 日出日沒時間網頁 (根據空品測站所在縣市)
 * AQI數字: 環境保護署 環境資源資料開放平台 空氣品質指標(AQI)
 * AQI狀態圖案/文字/條狀圖: 空氣品質指標(AQI)與健康影響及活動建議說明
-* 測站名稱文字: 該測站之即時影像還有位置 (Google Map)
+* 測站名稱文字: 該測站之影像還有位置 (Google Map)
 * PM<sub>2.5</sub>/數字: 環境保護署 空氣品質監測網
 
 ----
 ## 資料來源與授權
-* 空氣品質: 行政院環境保護署 環境資源資料開放平臺
+* 空氣品質: 行政院環境保護署 [環境資源資料開放平臺](https://data.gov.tw/license/legacy)
 * 天氣資料與日出日沒時間: 中央氣象局
-* 授權方式: [依政府資料開放平臺使用規範](https://data.gov.tw/license/legacy)
 
 ----
 ## Changelog
+### Version 1.13 / 2020-04-10
+* 新增 MIT授權條款
+* 新增 WebParser UserAgent設定
+* 修正 根據2020-04-07空氣品質監測網改版, 修正測站影像連結
+* 其他小調整
+
 ### Version 1.12 / 2020-03-24
 * 調整 Settings.txt
 * 新增 天氣圖示對應: 多雲有雷聲, 多雲有雨, 多雲有閃電, 晴有雷聲, 有雨, 大雷雨
 * 新增 滑鼠右鍵單擊變更設定: 天氣地點, 空品測站
 * 修正 空氣品質指標(AQI)與健康影響及活動建議說明連結
-
 
 ### Version 1.11 / 2019-04-21
 * 調整 介面調整
