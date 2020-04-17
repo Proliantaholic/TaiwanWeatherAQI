@@ -4,7 +4,7 @@
 
 #### 本說明亦發表在: [proliantaholic.blogspot.com](https://proliantaholic.blogspot.com/2019/04/TaiwanWeatherAQI.html)
 
-![proliantaholic.blogspot.com](https://tinyurl.com/yxzfx4eu)
+![proliantaholic.blogspot.com](https://tinyurl.com/y9nkasq9)
 
 ----
 ## 使用說明
