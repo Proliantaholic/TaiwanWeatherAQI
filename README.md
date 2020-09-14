@@ -1,4 +1,4 @@
-## Taiwan Weather and AQI (Air Quality Index) 臺灣天氣和空氣品質指標 [![TaiwanWeatherAQI](https://img.shields.io/badge/release-v1.19-brightgreen.svg)](https://github.com/Proliantaholic/TaiwanWeatherAQI/raw/master/TaiwanWeatherAQI_1.19.rmskin) [![TaiwanWeatherAQI](https://img.shields.io/github/license/Proliantaholic/TaiwanWeatherAQI?color=blue)](https://raw.githubusercontent.com/Proliantaholic/TaiwanWeatherAQI/master/LICENSE)
+## Taiwan Weather and AQI (Air Quality Index) 臺灣天氣和空氣品質指標 [![TaiwanWeatherAQI](https://img.shields.io/badge/release-v1.20-brightgreen.svg)](https://github.com/Proliantaholic/TaiwanWeatherAQI/raw/master/TaiwanWeatherAQI_1.20.rmskin) [![TaiwanWeatherAQI](https://img.shields.io/github/license/Proliantaholic/TaiwanWeatherAQI?color=blue)](https://raw.githubusercontent.com/Proliantaholic/TaiwanWeatherAQI/master/LICENSE)
 ## Rainmeter Skin / Rainmeter 面板
 > 顯示臺灣天氣資料和環保署空氣品質監測站的空氣品質指標(AQI, Air Quality Index)和PM<sub>2.5</sub>概況
 
@@ -11,7 +11,7 @@
 ## 使用說明
 
 ### 安裝
-* 下載 [![TaiwanWeatherAQI](https://img.shields.io/badge/TaiwanWeatherAQI.rmskin-v1.19-brightgreen.svg)](https://github.com/Proliantaholic/TaiwanWeatherAQI/raw/master/TaiwanWeatherAQI_1.19.rmskin) 然後使用 [Rainmeter](https://www.rainmeter.net) 的 SkinInstaller.exe 安裝.
+* 下載 [![TaiwanWeatherAQI](https://img.shields.io/badge/TaiwanWeatherAQI.rmskin-v1.20-brightgreen.svg)](https://github.com/Proliantaholic/TaiwanWeatherAQI/raw/master/TaiwanWeatherAQI_1.20.rmskin) 然後使用 [Rainmeter](https://www.rainmeter.net) 的 SkinInstaller.exe 安裝.
 
 ### 設定
 指定天氣地點(WsiteName)和空氣品質監測站(AirSiteName)名稱:
@@ -50,6 +50,9 @@
 
 ----
 ## Changelog
+### Version 1.20 / 2020-09-14
+* 新增 即時天氣資料如果超過兩小時未有更新數據, 資料更新時間文字改以紅底白字顯示 (環境資源資料開放平台 即時天氣資料 有時會很久都沒更新)
+
 ### Version 1.19 / 2020-05-07
 * 調整 滑鼠左鍵雙擊日出日沒時刻/城市文字: 中央氣象局 縣市天氣預報網頁的日出日沒時刻欄位(根據天氣地點所在縣市)與天文資料下載網頁(日出日沒&曙暮光時刻表)
 * 調整 滑鼠左鍵雙擊天氣地點文字: 中央氣象局 天氣小叮嚀電子卡網頁連結
