@@ -11,7 +11,7 @@
 ## 使用說明
 
 ### 安裝
-* 下載 [![TaiwanWeatherAQI](https://img.shields.io/badge/TaiwanWeatherAQI.rmskin-v1.20-brightgreen.svg)](https://github.com/Proliantaholic/TaiwanWeatherAQI/raw/master/TaiwanWeatherAQI_1.20.rmskin) 然後使用 [Rainmeter](https://www.rainmeter.net) 的 SkinInstaller.exe 安裝.
+* 下載 [![TaiwanWeatherAQI](https://img.shields.io/github/v/release/Proliantaholic/TaiwanWeatherAQI?label=TaiwanWeatherAQI.rmskin&logoColor=brightgreen&style=social)](https://github.com/Proliantaholic/TaiwanWeatherAQI/releases/download/v1.20/TaiwanWeatherAQI_1.20.rmskin) 然後使用 [Rainmeter](https://www.rainmeter.net) 的 SkinInstaller.exe 安裝.
 
 ### 設定
 指定天氣地點(WsiteName)和空氣品質監測站(AirSiteName)名稱:
