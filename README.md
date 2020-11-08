@@ -1,4 +1,4 @@
-## Taiwan Weather and AQI (Air Quality Index) 臺灣天氣和空氣品質指標 [![TaiwanWeatherAQI](https://img.shields.io/github/v/release/Proliantaholic/TaiwanWeatherAQI?include_prereleases&style=social)](https://github.com/Proliantaholic/TaiwanWeatherAQI/releases/download/v1.20/TaiwanWeatherAQI_1.20.rmskin) [![TaiwanWeatherAQI](https://img.shields.io/github/license/Proliantaholic/TaiwanWeatherAQI?color=blue)](https://raw.githubusercontent.com/Proliantaholic/TaiwanWeatherAQI/master/LICENSE)
+## Taiwan Weather and AQI (Air Quality Index) 臺灣天氣和空氣品質指標 [![TaiwanWeatherAQI](https://img.shields.io/github/v/release/Proliantaholic/TaiwanWeatherAQI?include_prereleases&style=social)](https://github.com/Proliantaholic/TaiwanWeatherAQI/releases/download/v1.21/TaiwanWeatherAQI_1.21.rmskin) [![TaiwanWeatherAQI](https://img.shields.io/github/license/Proliantaholic/TaiwanWeatherAQI?color=blue)](https://raw.githubusercontent.com/Proliantaholic/TaiwanWeatherAQI/master/LICENSE)
 ## Rainmeter Skin / Rainmeter 面板
 > 顯示臺灣天氣資料和環保署空氣品質監測站的空氣品質指標(AQI, Air Quality Index)和PM<sub>2.5</sub>概況
 
@@ -11,7 +11,7 @@
 ## 使用說明
 
 ### 安裝
-* 下載 [![TaiwanWeatherAQI](https://img.shields.io/github/v/release/Proliantaholic/TaiwanWeatherAQI?label=TaiwanWeatherAQI.rmskin&logoColor=brightgreen&style=social)](https://github.com/Proliantaholic/TaiwanWeatherAQI/releases/download/v1.20/TaiwanWeatherAQI_1.20.rmskin) 然後使用 [Rainmeter](https://www.rainmeter.net) 的 SkinInstaller.exe 安裝.
+* 下載 [![TaiwanWeatherAQI](https://img.shields.io/github/v/release/Proliantaholic/TaiwanWeatherAQI?label=TaiwanWeatherAQI.rmskin&logoColor=brightgreen&style=social)](https://github.com/Proliantaholic/TaiwanWeatherAQI/releases/download/v1.21/TaiwanWeatherAQI_1.21.rmskin) 然後使用 [Rainmeter](https://www.rainmeter.net) 的 SkinInstaller.exe 安裝.
 
 ### 設定
 指定天氣地點(WsiteName)和空氣品質監測站(AirSiteName)名稱:
@@ -44,12 +44,17 @@
 
 ----
 ## 資料來源與授權
-* 空氣品質: 行政院環境保護署 [環境資源資料開放平臺](https://data.gov.tw/license/legacy)
+* 空氣品質: 行政院環境保護署 [環境資源資料開放平臺](https://data.gov.tw/license)
 * 天氣資料與日出日沒時刻: 中央氣象局
 * 縣市天氣概況: 中央氣象局
 
 ----
 ## Changelog
+### Version 1.21 / 2020-11-08
+* 新增 更新即時天氣資料連線逾時重試 (3次)
+* 調整 空氣品質指標(AQI)資料來源為: 新版「環保署環境資料開放平臺」(data.epa.gov.tw) (試行版)
+* 調整 AQI資料更新時間顯示格式 (去掉秒數)
+
 ### Version 1.20 / 2020-09-14
 * 新增 即時天氣資料如果超過兩小時未有更新數據, 資料更新時間文字改以紅底白字顯示 (環境資源資料開放平台 即時天氣資料 有時會很久都沒更新)
 
