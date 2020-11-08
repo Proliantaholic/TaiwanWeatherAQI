@@ -25,7 +25,7 @@
 
 天氣地點可參考: [即時天氣資料](https://opendata.epa.gov.tw/Data/Contents/ATM00698/) 地點欄位. 例如: 陽明山
 
-測站名稱可參考: [空氣品質監測站基本資料](https://opendata.epa.gov.tw/Data/Contents/AQXSite/) 測站名稱欄位. 例如:中山
+測站名稱可參考: [空氣品質監測站基本資料](https://data.epa.gov.tw/dataset/aqx_p_07/resource/fb92f773-27ca-470a-af04-6000397f7a4e) 測站名稱欄位. 例如:中山
 
 ### 使用
 用滑鼠左鍵雙擊不同區域可以帶出不同資訊:
