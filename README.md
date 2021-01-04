@@ -59,7 +59,7 @@
 ----
 ## Changelog
 ### Version 2.0 / 2021-01-04
-* Version 2.0: 天氣資料改用Powershell透過WebDriver/Selenium去讀取中央氣象局全球資訊網站資料
+* Version 2.0: 天氣資料改用PowerShell透過WebDriver/Selenium去讀取中央氣象局全球資訊網站資料
 * 如果出現亂碼: 在面板上按右鍵 -> 自訂面板動作 -> 選擇你有安裝的瀏覽器類別 (預設是Chrome)
 * 天氣測站名稱: https://www.cwb.gov.tw/V8/C/W/OBS_County.html?ID=63 找到你想要的測站, 網頁上方標題:XX測站觀測資料, XX即為測站名稱. 例如:臺北
 * 新增 根據天氣狀況顯示相對的桌布底圖
