@@ -16,7 +16,7 @@
 ### 設定
 指定天氣測站(ObsStationName)和空氣品質監測站(AirSiteName)名稱:
 * 在 Settings.txt 內設定. (在 TaiwanWeatherAQI\@RESOURCES\Settings 目錄內)
-* 在面板上按右鍵 -> 自訂面板動作 -> 指定天氣地點和空品測站(手動) (會打開 Settings.txt)
+* 在面板上按右鍵 -> 自訂面板動作 -> 指定天氣測站和空品測站(手動) (會打開 Settings.txt)
 * 或是選擇自訂面板動作選單列出的天氣測站和空品測站.
 
 也可以透過滑鼠右鍵單擊不同區域變更設定: (輸入後請按Enter確定變更)
