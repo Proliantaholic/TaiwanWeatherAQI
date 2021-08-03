@@ -1,4 +1,4 @@
-## Taiwan Weather and AQI (Air Quality Index) 臺灣天氣和空氣品質指標 [![TaiwanWeatherAQI](https://img.shields.io/github/v/release/Proliantaholic/TaiwanWeatherAQI?include_prereleases&style=social)](https://github.com/Proliantaholic/TaiwanWeatherAQI/releases/download/v2.05/TaiwanWeatherAQI_2.05.rmskin) [![TaiwanWeatherAQI](https://img.shields.io/github/license/Proliantaholic/TaiwanWeatherAQI?color=blue)](https://raw.githubusercontent.com/Proliantaholic/TaiwanWeatherAQI/master/LICENSE)
+## Taiwan Weather and AQI (Air Quality Index) 臺灣天氣和空氣品質指標 [![TaiwanWeatherAQI](https://img.shields.io/github/v/release/Proliantaholic/TaiwanWeatherAQI?include_prereleases&style=social)](https://github.com/Proliantaholic/TaiwanWeatherAQI/releases/download/v2.06/TaiwanWeatherAQI_2.06.rmskin) [![TaiwanWeatherAQI](https://img.shields.io/github/license/Proliantaholic/TaiwanWeatherAQI?color=blue)](https://raw.githubusercontent.com/Proliantaholic/TaiwanWeatherAQI/master/LICENSE)
 ## Rainmeter Skin / Rainmeter 面板
 > 顯示臺灣天氣資料和環保署空氣品質監測站的空氣品質指標(AQI, Air Quality Index)和PM<sub>2.5</sub>概況
 
@@ -11,7 +11,7 @@
 ## 使用說明
 
 ### 安裝
-* 下載 [![TaiwanWeatherAQI](https://img.shields.io/github/v/release/Proliantaholic/TaiwanWeatherAQI?label=TaiwanWeatherAQI.rmskin&logoColor=brightgreen&style=social)](https://github.com/Proliantaholic/TaiwanWeatherAQI/releases/download/v2.05/TaiwanWeatherAQI_2.05.rmskin) 然後使用 [Rainmeter](https://www.rainmeter.net) 的 SkinInstaller.exe 安裝.
+* 下載 [![TaiwanWeatherAQI](https://img.shields.io/github/v/release/Proliantaholic/TaiwanWeatherAQI?label=TaiwanWeatherAQI.rmskin&logoColor=brightgreen&style=social)](https://github.com/Proliantaholic/TaiwanWeatherAQI/releases/download/v2.06/TaiwanWeatherAQI_2.06.rmskin) 然後使用 [Rainmeter](https://www.rainmeter.net) 的 SkinInstaller.exe 安裝.
 
 ### 設定
 指定天氣測站(ObsStationName)和空氣品質監測站(AirSiteName)名稱:
@@ -58,9 +58,16 @@
 
 ----
 ## Changelog
+### Version 2.06 / 2021-08-03
+* 更新 ObsStations202108.txt
+* 調整 GetObsData.ps1: 配合Selenium 4.0.0-beta4, 修改FindElement方式
+* 調整 天氣狀況對應: 晴有雷, 陰有雷, 多雲有雷
+* 新增 W26對應URL: CWBWarnAllURL.lua
+* 調整 AQI PM<sub>2.5</sub>數字顯示 0
+
 ### Version 2.05 / 2021-04-05
 * 更新 ObsStations202104.txt
-* 調整 GetWebDriver.ps1: 調整使用curl的Windows 10版本的判別方式, 新增判別下載Edge/Firefox WebDriver 32bit版本, 移除IE code
+* 調整 GetObsData.ps1: 調整使用curl的Windows 10版本的判別方式, 新增判別下載Edge/Firefox WebDriver 32bit版本, 移除IE code
 * 調整 GetObsData.ps1: 移除IE code
 * 調整 天氣狀況對應: 有靄
 
