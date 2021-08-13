@@ -1,4 +1,4 @@
-## Taiwan Weather and AQI (Air Quality Index) 臺灣天氣和空氣品質指標 [![TaiwanWeatherAQI](https://img.shields.io/github/v/release/Proliantaholic/TaiwanWeatherAQI?include_prereleases&style=social)](https://github.com/Proliantaholic/TaiwanWeatherAQI/releases/download/v2.06/TaiwanWeatherAQI_2.06.rmskin) [![TaiwanWeatherAQI](https://img.shields.io/github/license/Proliantaholic/TaiwanWeatherAQI?color=blue)](https://raw.githubusercontent.com/Proliantaholic/TaiwanWeatherAQI/master/LICENSE)
+## Taiwan Weather and AQI (Air Quality Index) 臺灣天氣和空氣品質指標 [![TaiwanWeatherAQI](https://img.shields.io/github/v/release/Proliantaholic/TaiwanWeatherAQI?include_prereleases&style=social)](https://github.com/Proliantaholic/TaiwanWeatherAQI/releases/download/v2.07/TaiwanWeatherAQI_2.07.rmskin) [![TaiwanWeatherAQI](https://img.shields.io/github/license/Proliantaholic/TaiwanWeatherAQI?color=blue)](https://raw.githubusercontent.com/Proliantaholic/TaiwanWeatherAQI/master/LICENSE)
 ## Rainmeter Skin / Rainmeter 面板
 > 顯示臺灣天氣資料和環保署空氣品質監測站的空氣品質指標(AQI, Air Quality Index)和PM<sub>2.5</sub>概況
 
@@ -11,7 +11,7 @@
 ## 使用說明
 
 ### 安裝
-* 下載 [![TaiwanWeatherAQI](https://img.shields.io/github/v/release/Proliantaholic/TaiwanWeatherAQI?label=TaiwanWeatherAQI.rmskin&logoColor=brightgreen&style=social)](https://github.com/Proliantaholic/TaiwanWeatherAQI/releases/download/v2.06/TaiwanWeatherAQI_2.06.rmskin) 然後使用 [Rainmeter](https://www.rainmeter.net) 的 SkinInstaller.exe 安裝.
+* 下載 [![TaiwanWeatherAQI](https://img.shields.io/github/v/release/Proliantaholic/TaiwanWeatherAQI?label=TaiwanWeatherAQI.rmskin&logoColor=brightgreen&style=social)](https://github.com/Proliantaholic/TaiwanWeatherAQI/releases/download/v2.07/TaiwanWeatherAQI_2.07.rmskin) 然後使用 [Rainmeter](https://www.rainmeter.net) 的 SkinInstaller.exe 安裝.
 
 ### 設定
 指定天氣測站(ObsStationName)和空氣品質監測站(AirSiteName)名稱:
@@ -55,9 +55,17 @@
 * 天氣資料與日出日沒時刻, 縣市天氣概況: [中央氣象局全球資訊網站](https://www.cwb.gov.tw/V8/C/information.html)
 * 空氣品質: [環保署環境資料開放平臺](https://data.epa.gov.tw/)
 * 部分桌布底圖相片來自Pexels [(Pexels上的所有相片和影片均可免費使用)](https://www.pexels.com/zh-tw/license/), 其餘桌布相片為本人拍攝
+* [Google Chrome driver](https://chromedriver.storage.googleapis.com)
+* [Microsoft Edge driver](https://msedgedriver.azureedge.net)
+* [Firefox driver](https://api.github.com/repos/mozilla/geckodriver/releases)
+* [Selenium WebDriver](https://www.nuget.org/packages/Selenium.WebDriver)
 
 ----
 ## Changelog
+### Version 2.07 / 2021-08-14
+* 調整 警特報網頁顯示及連結 (TaiwanWeatherAQI.ini, CWBWarnAllName.lua, CWBWarnAllURL.lua)
+* 調整 GetWebDriver.ps1: 調整Selenium WebDriver版本的判別方式
+
 ### Version 2.06 / 2021-08-03
 * 更新 ObsStations202108.txt
 * 調整 GetObsData.ps1: 配合Selenium 4.0.0-beta4, 修改FindElement方式
