@@ -1,17 +1,17 @@
-## Taiwan Weather and AQI (Air Quality Index) 臺灣天氣和空氣品質指標 [![TaiwanWeatherAQI](https://img.shields.io/github/v/release/Proliantaholic/TaiwanWeatherAQI?include_prereleases&style=social)](https://github.com/Proliantaholic/TaiwanWeatherAQI/releases/download/v2.09/TaiwanWeatherAQI_2.09.rmskin) [![TaiwanWeatherAQI](https://img.shields.io/github/license/Proliantaholic/TaiwanWeatherAQI?color=blue)](https://raw.githubusercontent.com/Proliantaholic/TaiwanWeatherAQI/master/LICENSE)
+## Taiwan Weather and AQI (Air Quality Index) 臺灣天氣和空氣品質指標 [![TaiwanWeatherAQI](https://img.shields.io/github/v/release/Proliantaholic/TaiwanWeatherAQI?include_prereleases&style=social)](https://github.com/Proliantaholic/TaiwanWeatherAQI/releases/download/v2.10/TaiwanWeatherAQI_2.10.rmskin) [![TaiwanWeatherAQI](https://img.shields.io/github/license/Proliantaholic/TaiwanWeatherAQI?color=blue)](https://raw.githubusercontent.com/Proliantaholic/TaiwanWeatherAQI/master/LICENSE)
 ## Rainmeter Skin / Rainmeter 面板
 > 顯示臺灣天氣資料和環保署空氣品質監測站的空氣品質指標(AQI, Air Quality Index)和PM<sub>2.5</sub>概況
 
 #### 本說明亦發表在: [proliantaholic.blogspot.com](https://proliantaholic.blogspot.com/2019/04/TaiwanWeatherAQI.html)
 
 ![proliantaholic.blogspot.com](https://tinyurl.com/ycd8kmdc)
-![proliantaholic.blogspot.com](https://tinyurl.com/y7gzat4g)
+![proliantaholic.blogspot.com](https://tinyurl.com/42fb74py)
 
 ----
 ## 使用說明
 
 ### 安裝
-* 下載 [![TaiwanWeatherAQI](https://img.shields.io/github/v/release/Proliantaholic/TaiwanWeatherAQI?label=TaiwanWeatherAQI.rmskin&logoColor=brightgreen&style=social)](https://github.com/Proliantaholic/TaiwanWeatherAQI/releases/download/v2.09/TaiwanWeatherAQI_2.09.rmskin) 然後使用 [Rainmeter](https://www.rainmeter.net) 的 SkinInstaller.exe 安裝.
+* 下載 [![TaiwanWeatherAQI](https://img.shields.io/github/v/release/Proliantaholic/TaiwanWeatherAQI?label=TaiwanWeatherAQI.rmskin&logoColor=brightgreen&style=social)](https://github.com/Proliantaholic/TaiwanWeatherAQI/releases/download/v2.10/TaiwanWeatherAQI_2.10.rmskin) 然後使用 [Rainmeter](https://www.rainmeter.net) 的 SkinInstaller.exe 安裝.
 
 ### 設定
 指定天氣測站(ObsStationName)和空氣品質監測站(AirSiteName)名稱:
@@ -25,7 +25,7 @@
 
 天氣測站名稱可參考: [中央氣象局全球資訊網站 | 縣市測站列表](https://www.cwb.gov.tw/V8/C/W/OBS_County.html?ID=63) 找到你想要的測站, 網頁上方標題:XX測站觀測資料, XX即為測站名稱. 例如:臺北
 
-空品測站名稱可參考: [空氣品質監測站基本資料](https://data.epa.gov.tw/dataset/aqx_p_07/resource/fb92f773-27ca-470a-af04-6000397f7a4e) 測站名稱欄位. 例如:中山
+空品測站名稱可參考: [空氣品質監測站基本資料](https://data.epa.gov.tw/dataset/detail/AQX_P_07) 測站名稱欄位. 例如:中山
 
 設定瀏覽器類別: (Chrome, Edge, Firefox)
 * Version 2.0起使用瀏覽器讀取中央氣象局全球資訊網站天氣資料
@@ -34,7 +34,7 @@
 
 ### 使用
 用滑鼠左鍵雙擊不同區域可以帶出不同資訊:
-* 天氣測站名稱文字: 中央氣象局全球資訊網站 縣市天氣預報與天氣小叮嚀電子卡網頁 (根據天氣測站所在縣市)
+* 天氣測站名稱文字: 中央氣象局全球資訊網站 鄉鎮天氣預報與天氣小叮嚀電子卡網頁 (根據天氣測站所在鄉鎮市區)
 * 溫度: 中央氣象局全球資訊網站 測站觀測資料網頁 (根據所設定的天氣測站)
 * 衛星雲圖文字: 中央氣象局全球資訊網站 衛星雲圖網頁
 * 日出日沒時刻/城市文字: 中央氣象局全球資訊網站 縣市天氣預報網頁的日出日沒時刻欄位(根據天氣地點所在縣市)與天文資料下載網頁(日出日沒&曙暮光時刻表)
@@ -47,7 +47,8 @@
 將滑鼠指標移至不同區域可以顯示不同資訊:
 * 天氣測站名稱文字: 顯示天氣測站所在縣市的天氣預報, 天氣概況標題, 與資料更新時間
 * 警示圖示⚠️: 顯示目前的警特報
-* AQI數字或PM<sub>2.5</sub>數字: 顯示空氣污染指標物與資料更新時間
+* AQI數字或PM<sub>2.5</sub>數字: 顯示空氣污染指標物與資料更新時間 (第一行)
+* AQI數字或PM<sub>2.5</sub>數字: 顯示空品測站的溫度濕度與資料更新時間 (第二行)
 
 ----
 ## 資料來源與授權
@@ -62,6 +63,15 @@
 
 ----
 ## Changelog
+### Version 2.10 / 2022-03-30
+* 更新 ObsStations202203.txt: UTF-8-BOM -> UTF-8, 新增鄉鎮市區行政區域代碼
+* 更新 Settings.txt: 空氣品質監測站基本資料連結
+* 調整 天氣狀況對應: 有霾
+* 調整 滑鼠左鍵雙擊天氣測站名稱文字: 天氣預報網頁, 由天氣測站所在縣市改為所在鄉鎮市區
+* 調整 滑鼠左鍵雙擊AQI數字: 環境保護署 環境資源資料開放平台 空氣品質指標(AQI) 連結
+* 新增 滑鼠指標移至AQI數字或PM<sub>2.5</sub>數字: 顯示空品測站的溫度濕度與資料更新時間 (第二行)
+* 新增 支援空品測站行動測站名稱(有括號的測站名稱)
+
 ### Version 2.09 / 2022-02-19
 * 更新 ObsStations202202.txt
 * 調整 警特報連結 (TaiwanWeatherAQI.ini)
