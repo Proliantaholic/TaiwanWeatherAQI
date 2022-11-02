@@ -74,6 +74,10 @@
 
 ----
 ## Changelog
+### Version 3.01 / 2022-11-02
+- 更新 ObsStations202211.txt
+- 調整 GetWebDriver.ps1: 調整Selenium WebDriver版本的判別方式
+
 ### Version 3.00 / 2022-07-10
 - Version 3.00:
   - 因為AQI第1版API於2022年5月19日停止服務, AQI資料改使用第2版API取用資料 (需要到行政院環保署資料開放平臺註冊申請API Key)
