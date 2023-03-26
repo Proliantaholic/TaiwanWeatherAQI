@@ -1,17 +1,17 @@
-## Taiwan Weather and AQI (Air Quality Index) 臺灣天氣和空氣品質指標 [![TaiwanWeatherAQI](https://img.shields.io/github/v/release/Proliantaholic/TaiwanWeatherAQI?include_prereleases&style=social)](https://github.com/Proliantaholic/TaiwanWeatherAQI/releases/download/v3.00/TaiwanWeatherAQI_3.00.rmskin) [![TaiwanWeatherAQI](https://img.shields.io/github/license/Proliantaholic/TaiwanWeatherAQI?color=blue)](https://raw.githubusercontent.com/Proliantaholic/TaiwanWeatherAQI/master/LICENSE)
+## Taiwan Weather and AQI (Air Quality Index) 臺灣天氣和空氣品質指標 [![TaiwanWeatherAQI](https://img.shields.io/github/v/release/Proliantaholic/TaiwanWeatherAQI?include_prereleases&style=social)](https://github.com/Proliantaholic/TaiwanWeatherAQI/releases/download/v3.10/TaiwanWeatherAQI_3.10.rmskin) [![TaiwanWeatherAQI](https://img.shields.io/github/license/Proliantaholic/TaiwanWeatherAQI?color=blue)](https://raw.githubusercontent.com/Proliantaholic/TaiwanWeatherAQI/master/LICENSE)
 ## Rainmeter Skin / Rainmeter 面板
 > 顯示臺灣天氣資料和環保署空氣品質監測站的空氣品質指標(AQI, Air Quality Index)和PM<sub>2.5</sub>概況
 
 #### 本說明亦發表在: [proliantaholic.blogspot.com](https://proliantaholic.blogspot.com/2019/04/TaiwanWeatherAQI.html)
 
-![proliantaholic.blogspot.com](https://tinyurl.com/ycd8kmdc)
-![proliantaholic.blogspot.com](https://tinyurl.com/42fb74py)
+![proliantaholic.blogspot.com](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh0JRsDuyU2bhdzZRLaw_EZay1widVbbSJUVsX3Mj6gmSMMT18YVX1mCRqfBnstPG32jXKZixHGUF-LWeIP0G0-v302ejhiV0rt4CTQ5GXA2WyZswNGNdKh5xsxIrA0vpFyDdcUpN7_Gfidg-pL14-VXPG215YzS1qtWSUxN0TURJVI9Q-Pw1eOtA_Cpg/w640-h272/skin_v3.10_01.png)
+![proliantaholic.blogspot.com](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhor5JJHGHU98tFQ1T07wj7F-Lx0_M2S_QQYooZqIkwst_2pL6MbO_PBUIYU1-7qBhLsS6bpTNxSkXsi2b0IYPHVji_X0ymTg1k7T14Nnmr1v1fwCnWchX_TGZkGJkIzm_qhBJFWKdUio7PbBvRN-x7eK4zP9ILDFr1BYsLf9VZBBBuiysCuxmdc2serQ/w640-h264/skin_v3.10_02.png)
 
 ----
 ## 使用說明
 
 ### 安裝
-- 下載 [![TaiwanWeatherAQI](https://img.shields.io/github/v/release/Proliantaholic/TaiwanWeatherAQI?label=TaiwanWeatherAQI.rmskin&logoColor=brightgreen&style=social)](https://github.com/Proliantaholic/TaiwanWeatherAQI/releases/download/v3.00/TaiwanWeatherAQI_3.00.rmskin) 然後使用 [Rainmeter](https://www.rainmeter.net) 的 SkinInstaller.exe 安裝.
+- 下載 [![TaiwanWeatherAQI](https://img.shields.io/github/v/release/Proliantaholic/TaiwanWeatherAQI?label=TaiwanWeatherAQI.rmskin&logoColor=brightgreen&style=social)](https://github.com/Proliantaholic/TaiwanWeatherAQI/releases/download/v3.10/TaiwanWeatherAQI_3.10.rmskin) 然後使用 [Rainmeter](https://www.rainmeter.net) 的 SkinInstaller.exe 安裝.
 
 ### 註冊申請API Key
 **自Version 3.00起, AQI資料使用行政院環保署資料開放平臺API v2取用資料, 需要申請API Key後才可使用**
@@ -56,7 +56,7 @@
 - PM<sub>2.5</sub>/數字: 環境保護署 空氣品質監測網
 
 將滑鼠指標移至不同區域可以顯示不同資訊:
-- 天氣測站名稱文字: 顯示天氣測站所在縣市的天氣預報, 天氣概況標題, 與資料更新時間
+- 天氣測站名稱文字: 顯示天氣測站所在縣市的天氣預報, 天氣概況標題, 與資料更新時間. 顯示天氣測站所在鄉鎮市區的體感溫度預報
 - 警示圖示⚠️: 顯示目前的警特報
 - AQI數字或PM<sub>2.5</sub>數字: 顯示空氣污染指標物與資料更新時間 (第一行)
 - AQI數字或PM<sub>2.5</sub>數字: 顯示空品測站的溫度濕度與資料更新時間 (第二行)
@@ -74,6 +74,27 @@
 
 ----
 ## Changelog
+### Version 3.10 / 2023-03-26
+- 更新 ObsStations202303.txt
+- 調整 Images檔案名稱大小寫
+- 調整 GetObsData.ps1:
+  - 呼叫參數: 增加TownId (體感溫度)
+  - 回傳資料順序 (ObsData.txt格式)
+  - 調整變數大小寫
+  - AddArguments: 無痕模式
+  - 網路連線異常時的處理: 移除Start-Sleep
+  - 日出日沒時刻判斷方法 (改用match, 不用Selenium)
+  - 新增體感溫度處理
+- 調整 GetWebDriver.ps1:
+  - 呼叫參數: 移除VerChrome, VerEdge
+  - Firefox API rate limit exceeded時的處理 (改成抓網頁, 不用API)
+  - 網路連線異常時的處理
+- 調整 TaiwanWeatherAQI.ini:
+  - Log
+  - MeasureRun等的順序, 網路連線異常時的處理
+  - 天氣狀況判別
+  - 新增體感溫度預報
+
 ### Version 3.01 / 2022-11-02
 - 更新 ObsStations202211.txt
 - 調整 GetWebDriver.ps1: 調整Selenium WebDriver版本的判別方式
