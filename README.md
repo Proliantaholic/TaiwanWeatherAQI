@@ -5,7 +5,6 @@
 #### 本說明亦發表在: [proliantaholic.blogspot.com](https://proliantaholic.blogspot.com/2019/04/TaiwanWeatherAQI.html)
 
 ![proliantaholic.blogspot.com](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh0JRsDuyU2bhdzZRLaw_EZay1widVbbSJUVsX3Mj6gmSMMT18YVX1mCRqfBnstPG32jXKZixHGUF-LWeIP0G0-v302ejhiV0rt4CTQ5GXA2WyZswNGNdKh5xsxIrA0vpFyDdcUpN7_Gfidg-pL14-VXPG215YzS1qtWSUxN0TURJVI9Q-Pw1eOtA_Cpg/w640-h272/skin_v3.10_01.png)
-![test](https://myppt.cc/ZXZenw)
 ![proliantaholic.blogspot.com](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhor5JJHGHU98tFQ1T07wj7F-Lx0_M2S_QQYooZqIkwst_2pL6MbO_PBUIYU1-7qBhLsS6bpTNxSkXsi2b0IYPHVji_X0ymTg1k7T14Nnmr1v1fwCnWchX_TGZkGJkIzm_qhBJFWKdUio7PbBvRN-x7eK4zP9ILDFr1BYsLf9VZBBBuiysCuxmdc2serQ/w640-h264/skin_v3.10_02.png)
 
 ----
