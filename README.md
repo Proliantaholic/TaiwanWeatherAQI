@@ -1,26 +1,26 @@
-## Taiwan Weather and AQI (Air Quality Index) 臺灣天氣和空氣品質指標 [![TaiwanWeatherAQI](https://img.shields.io/github/v/release/Proliantaholic/TaiwanWeatherAQI?include_prereleases&style=social)](https://github.com/Proliantaholic/TaiwanWeatherAQI/releases/download/v3.12/TaiwanWeatherAQI_3.12.rmskin) [![TaiwanWeatherAQI](https://img.shields.io/github/license/Proliantaholic/TaiwanWeatherAQI?color=blue)](https://raw.githubusercontent.com/Proliantaholic/TaiwanWeatherAQI/master/LICENSE)
+## Taiwan Weather and AQI (Air Quality Index) 臺灣天氣和空氣品質指標 [![TaiwanWeatherAQI](https://img.shields.io/github/v/release/Proliantaholic/TaiwanWeatherAQI?include_prereleases&style=social)](https://github.com/Proliantaholic/TaiwanWeatherAQI/releases/download/v3.13/TaiwanWeatherAQI_3.13.rmskin) [![TaiwanWeatherAQI](https://img.shields.io/github/license/Proliantaholic/TaiwanWeatherAQI?color=blue)](https://raw.githubusercontent.com/Proliantaholic/TaiwanWeatherAQI/master/LICENSE)
 ## Rainmeter Skin / Rainmeter 面板
-> 顯示臺灣天氣資料和環保署空氣品質監測站的空氣品質指標(AQI, Air Quality Index)和PM<sub>2.5</sub>概況
+> 顯示臺灣天氣資料和環境部空氣品質監測站的空氣品質指標(AQI, Air Quality Index)和PM<sub>2.5</sub>概況
 
 #### 本說明亦發表在: [proliantaholic.blogspot.com](https://proliantaholic.blogspot.com/2019/04/TaiwanWeatherAQI.html)
 
-![proliantaholic.blogspot.com](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgxWRaFu844aGlJfitarx5KAEJ4rKV9VfGOpnVEeO6lDNyCkNIWL3BKnorWvHTE6XbdiDdCPUIYNjfEKq2yKYoTlGGZwmijvY3AOXqEnaQSuvh879sJMK3vl409mQsS7St53lOXnGRY2Lz51VZc5UsOe9_lBhr6iQfSKzDvs6NkXqqq5U5LhVFiX54fBw/s784/v3.11_01.png)
-![proliantaholic.blogspot.com](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiUvh2lS60jJoK-WWsRK7EemrE4yKvhB6v3cb8mU6paSCYYnV1-BIFYJUZq46C3Dyrg6ib7_ShxQbCn7HtbuDWkEA6FncT4tVzGw7nrIWjZzsWs_iTc-1StkojR73g6mTJtyR39bvwaFXHu8y-tU0orBE2OB3R70juPaTpCPQWYUXoY-6XgA54JPlYtPdEt/s786/v3.12_02.png)
+![proliantaholic.blogspot.com](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjuit6_oeNzUKtTeEzYqlzeP1na6bmAcg4_CntZmXsdCGr9RMACaMi9sJu3ugp4DlnTrbZCEzjJa_o3kIQm9COaXW0fS11PqYhgOVLIPkxG7EVg__tWt4LvKzEy6-ohNvbFkZHKRxhk_hF5EB6e2sEAFmLOIfVgmGzMknvshedzSvyMerxjT4eOg0oj6tM_/s784/skin_v3.13_01.png)
+![proliantaholic.blogspot.com](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgdbVIL8x5QUOsECSFWbdIzEkHGiZCrSaehU1galizi66LGT7ZBF4HRU5snPeDvlVbJR4L4tjp4bbqI8h4v4_8cniuMMZKb1ovhy0YTSSbbyGJU04bCdxSdMiuJsN4eII2mpw_ncSlTvU7xKQRSOGwBefZeWq3V64gpYRGnVZO_ITmBf0T8IMe1y_Q74ETZ/s786/skin_v3.13_02.png)
 ----
 ## 使用說明
 
 ### 安裝
-- 下載 [![TaiwanWeatherAQI](https://img.shields.io/github/v/release/Proliantaholic/TaiwanWeatherAQI?label=TaiwanWeatherAQI.rmskin&logoColor=brightgreen&style=social)](https://github.com/Proliantaholic/TaiwanWeatherAQI/releases/download/v3.12/TaiwanWeatherAQI_3.12.rmskin) 然後使用 [Rainmeter](https://www.rainmeter.net) 的 SkinInstaller.exe 安裝.
+- 下載 [![TaiwanWeatherAQI](https://img.shields.io/github/v/release/Proliantaholic/TaiwanWeatherAQI?label=TaiwanWeatherAQI.rmskin&logoColor=brightgreen&style=social)](https://github.com/Proliantaholic/TaiwanWeatherAQI/releases/download/v3.13/TaiwanWeatherAQI_3.13.rmskin) 然後使用 [Rainmeter](https://www.rainmeter.net) 的 SkinInstaller.exe 安裝.
 
 ### 註冊申請API Key
-**自Version 3.00起, AQI資料使用行政院環保署資料開放平臺API v2取用資料, 需要申請API Key後才可使用**
+**自Version 3.00起, AQI資料使用環境部資料開放平臺API v2取用資料, 需要申請API Key後才可使用**
 
 關於相關授權之申請, 請參考:
-- [環保署資料開放平臺會員註冊](https://data.epa.gov.tw/api-term)
-- [**取得API Key之程序**](https://data.epa.gov.tw/paradigm)
+- [環境部環境資源資料開放平臺會員註冊](https://data.moenv.gov.tw/api-term)
+- [**取得API Key之程序**](https://data.moenv.gov.tw/paradigm)
 
 ### 設定
-填入API Key(EpaApiKey): 設定EpaApiKey=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx -> xxx...為您申請到的API Key
+填入API Key(MoEnvApiKey): 設定MoEnvApiKey=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx -> xxx...為您申請到的API Key
 - 在 Settings.txt 內設定. (在 TaiwanWeatherAQI\@RESOURCES\Settings 目錄內)
 - 在面板上按右鍵 -> 自訂面板動作 -> 指定 (會打開 Settings.txt)
 
@@ -33,23 +33,23 @@
 - 天氣測站名稱文字: 天氣測站名稱(ObsStationName)
 - 空品測站名稱文字: 空氣品質監測站名稱(AirSiteName)
 
-天氣測站名稱可參考: [中央氣象局全球資訊網站 | 縣市測站列表](https://www.cwb.gov.tw/V8/C/W/OBS_County.html?ID=63) 找到你想要的測站, 網頁上方標題:XX測站觀測資料, XX即為測站名稱. 例如:臺北
+天氣測站名稱可參考: [中央氣象署全球資訊網站 | 縣市測站列表](https://www.cwa.gov.tw/V8/C/W/OBS_County.html?ID=63) 找到你想要的測站, 網頁上方標題:XX測站觀測資料, XX即為測站名稱. 例如:臺北
 
-空品測站名稱可參考: [空氣品質監測站基本資料](https://data.epa.gov.tw/dataset/detail/AQX_P_07) 測站名稱欄位. 例如:中山
+空品測站名稱可參考: [空氣品質監測站基本資料](https://data.moenv.gov.tw/dataset/detail/AQX_P_07) 測站名稱欄位. 例如:中山
 
 設定瀏覽器類別: (Chrome, Edge, Firefox)
-- Version 2.0起使用瀏覽器讀取中央氣象局全球資訊網站天氣資料
+- Version 2.0起使用瀏覽器讀取中央氣象署全球資訊網站天氣資料
 - 在 Settings.txt 內設定. (在 TaiwanWeatherAQI\@RESOURCES\Settings 目錄內)
 - 或是在面板上按右鍵 -> 自訂面板動作 -> 選擇你有安裝的瀏覽器類別 (預設是Chrome)
 
 ### 使用
 用滑鼠左鍵雙擊不同區域可以帶出不同資訊:
-- 天氣測站名稱文字: 中央氣象局全球資訊網站 鄉鎮天氣預報與天氣小叮嚀電子卡網頁 (根據天氣測站所在鄉鎮市區)
-- 溫度: 中央氣象局全球資訊網站 測站觀測資料網頁 (根據所設定的天氣測站)
-- 天氣圖資文字: 中央氣象局全球資訊網站 最新天氣圖資網頁
-- 日出日沒時刻/城市文字: 中央氣象局全球資訊網站 縣市天氣預報網頁的日出日沒時刻欄位(根據天氣地點所在縣市)與天文資料下載網頁(日出日沒&曙暮光時刻表)
-- 警示圖示⚠️: 中央氣象局全球資訊網站 警特報網頁
-- AQI數字: 環境保護署 環境資源資料開放平台 空氣品質指標(AQI), 空氣品質監測小時值資料(其它測項)
+- 天氣測站名稱文字: 中央氣象署全球資訊網站 鄉鎮天氣預報與天氣小叮嚀電子卡網頁 (根據天氣測站所在鄉鎮市區)
+- 溫度: 中央氣象署全球資訊網站 測站觀測資料網頁 (根據所設定的天氣測站)
+- 天氣圖資文字: 中央氣象署全球資訊網站 最新天氣圖資網頁
+- 日出日沒時刻/城市文字: 中央氣象署全球資訊網站 縣市天氣預報網頁的日出日沒時刻欄位(根據天氣地點所在縣市)與天文資料下載網頁(日出日沒&曙暮光時刻表)
+- 警示圖示⚠️: 中央氣象署全球資訊網站 警特報網頁
+- AQI數字: 環境部 環境資源資料開放平臺 空氣品質指標(AQI), 空氣品質監測小時值資料(其它測項)
 - AQI狀態圖案/文字/條狀圖: 空氣品質指標(AQI)與健康影響及活動建議說明
 - 空品測站名稱文字: 該測站之影像還有位置 (Google Map)
 - PM<sub>2.5</sub>/數字: 環境保護署 空氣品質監測網
@@ -65,16 +65,45 @@
 ----
 ## 資料來源與授權
 - [政府資料開放授權條款](https://data.gov.tw/license/)
-- 天氣資料與日出日沒時刻, 縣市天氣概況: [中央氣象局全球資訊網站](https://www.cwb.gov.tw/V8/C/information.html)
-- 空氣品質: [環保署環境資料開放平臺](https://data.epa.gov.tw/)
+- 天氣資料與日出日沒時刻, 縣市天氣概況: [中央氣象署全球資訊網站](https://www.cwa.gov.tw/V8/C/information.html)
+- 空氣品質: [環境部 環境資源資料開放平臺](https://data.moenv.gov.tw/)
 - 部分桌布底圖相片來自Pexels [(Pexels上的所有相片和影片均可免費使用)](https://www.pexels.com/zh-tw/license/), 其餘桌布相片為本人拍攝
 - [Google Chrome driver](https://chromedriver.storage.googleapis.com)
 - [Microsoft Edge driver](https://msedgedriver.azureedge.net)
 - [Firefox driver](https://api.github.com/repos/mozilla/geckodriver/releases)
 - [Selenium WebDriver](https://www.nuget.org/packages/Selenium.WebDriver)
+- [Json.NET Newtonsoft.Json](https://github.com/JamesNK/Newtonsoft.Json)
 
 ----
 ## Changelog
+### Version 3.13 / 2023-09-05
+- 配合「行政院環境保護署」於2023年8月22日改制升格為「環境部」:
+  - 文字「環境保護署」調整為「環境部」
+  - 網域名稱自 epa.gov.tw 調整為 moenv.gov.tw
+  - 相關命名由EPA調整為MoEnv
+    - TaiwanWeatherAQI.ini
+    - Settings.txt
+- 配合「中央氣象局」於2023年9月15日改制升格為「中央氣象署」:
+  - 文字「中央氣象局」調整為「中央氣象署」
+  - 網域名稱自 cwb.gov.tw 調整為 cwa.gov.tw
+  - 相關命名由CWB調整為CWA
+    - TaiwanWeatherAQI.ini
+    - Settings.txt
+    - CWBWarnAllURL.lua 調整為 CWAWarnAllURL.lua
+    - CWBWarnAllName.lua 調整為 CWAWarnAllName.lua
+    - GetObsData.ps1
+- 更新 ObsStations202309.txt
+- 調整 GetWebDriver.ps1:
+  - 調整已經下載的msedgedriver.exe版本的判別方式
+  - 調整下載.NET Standard 2.0版本的WebDriver.dll (Selenium 4.12.2起的版本)
+  - 新增下載Json.NET
+- 調整 GetObsData.ps1:
+  - 調整使用.NET Standard 2.0版本的WebDriver.dll (Selenium 4.12.2起只有.NET Standard 2.0的版本)
+  - 新增使用Json.NET: (因為.NET Standard 2.0的WebDriver.dll需要)
+    - Newtonsoft.Json.dll, .NET Standard 2.0的版本
+- 調整 TaiwanWeatherAQI.ini:
+  - 調整AQI<10時數字顯示的位置
+
 ### Version 3.12 / 2023-08-05
 - 更新 ObsStations202308.txt
 - 調整 GetObsData.ps1:
