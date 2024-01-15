@@ -1,4 +1,4 @@
-## Taiwan Weather and AQI (Air Quality Index) 臺灣天氣和空氣品質指標 [![TaiwanWeatherAQI](https://img.shields.io/github/v/release/Proliantaholic/TaiwanWeatherAQI?include_prereleases&style=social)](https://github.com/Proliantaholic/TaiwanWeatherAQI/releases/download/v3.13/TaiwanWeatherAQI_3.13.rmskin) [![TaiwanWeatherAQI](https://img.shields.io/github/license/Proliantaholic/TaiwanWeatherAQI?color=blue)](https://raw.githubusercontent.com/Proliantaholic/TaiwanWeatherAQI/master/LICENSE)
+## Taiwan Weather and AQI (Air Quality Index) 臺灣天氣和空氣品質指標 [![TaiwanWeatherAQI](https://img.shields.io/github/v/release/Proliantaholic/TaiwanWeatherAQI?include_prereleases&style=social)](https://github.com/Proliantaholic/TaiwanWeatherAQI/releases/download/v3.14/TaiwanWeatherAQI_3.14.rmskin) [![TaiwanWeatherAQI](https://img.shields.io/github/license/Proliantaholic/TaiwanWeatherAQI?color=blue)](https://raw.githubusercontent.com/Proliantaholic/TaiwanWeatherAQI/master/LICENSE)
 ## Rainmeter Skin / Rainmeter 面板
 > 顯示臺灣天氣資料和環境部空氣品質監測站的空氣品質指標(AQI, Air Quality Index)和PM<sub>2.5</sub>概況
 
@@ -10,7 +10,7 @@
 ## 使用說明
 
 ### 安裝
-- 下載 [![TaiwanWeatherAQI](https://img.shields.io/github/v/release/Proliantaholic/TaiwanWeatherAQI?label=TaiwanWeatherAQI.rmskin&logoColor=brightgreen&style=social)](https://github.com/Proliantaholic/TaiwanWeatherAQI/releases/download/v3.13/TaiwanWeatherAQI_3.13.rmskin) 然後使用 [Rainmeter](https://www.rainmeter.net) 的 SkinInstaller.exe 安裝.
+- 下載 [![TaiwanWeatherAQI](https://img.shields.io/github/v/release/Proliantaholic/TaiwanWeatherAQI?label=TaiwanWeatherAQI.rmskin&logoColor=brightgreen&style=social)](https://github.com/Proliantaholic/TaiwanWeatherAQI/releases/download/v3.14/TaiwanWeatherAQI_3.14.rmskin) 然後使用 [Rainmeter](https://www.rainmeter.net) 的 SkinInstaller.exe 安裝.
 
 ### 註冊申請API Key
 **自Version 3.00起, AQI資料使用環境部資料開放平臺API v2取用資料, 需要申請API Key後才可使用**
@@ -67,8 +67,8 @@
 - [政府資料開放授權條款](https://data.gov.tw/license/)
 - 天氣資料與日出日沒時刻, 縣市天氣概況: [中央氣象署全球資訊網站](https://www.cwa.gov.tw/V8/C/information.html)
 - 空氣品質: [環境部 環境資源資料開放平臺](https://data.moenv.gov.tw/)
-- 部分桌布底圖相片來自Pexels [(Pexels上的所有相片和影片均可免費使用)](https://www.pexels.com/zh-tw/license/), 其餘桌布相片為本人拍攝
-- [Google Chrome driver](https://chromedriver.storage.googleapis.com)
+- 部分桌布底圖相片來自Pexels [(Pexels上的所有相片和影片均可免費使用)](https://www.pexels.com/zh-tw/license), 其餘桌布相片為本人拍攝
+- [Google Chrome driver](https://googlechromelabs.github.io/chrome-for-testing/last-known-good-versions-with-downloads.json)
 - [Microsoft Edge driver](https://msedgedriver.azureedge.net)
 - [Firefox driver](https://api.github.com/repos/mozilla/geckodriver/releases)
 - [Selenium WebDriver](https://www.nuget.org/packages/Selenium.WebDriver)
@@ -76,6 +76,16 @@
 
 ----
 ## Changelog
+### Version 3.14 / 2024-01-15
+- 合併 GetWebDriver.ps1 GetObsData.ps1 為 GetObsData.ps1:
+  - 改用function寫法, 精簡程式碼
+  - 放棄支援下載Chrome 115以前的ChromeDriver
+  - 調整解壓縮方式及解壓縮後檔案搬移方式
+  - 調整網路連線異常時的資料顯示 (如果前一次資料正常則沿用)
+  - 調整確認網頁下載完成的方式及等待時間
+- 調整 TaiwanWeatherAQI.ini 配合新的 GetObsData.ps1
+- 更新 ObsStations202401.txt
+
 ### Version 3.13 / 2023-09-05
 - 配合「行政院環境保護署」於2023年8月22日改制升格為「環境部」:
   - 文字「環境保護署」調整為「環境部」
