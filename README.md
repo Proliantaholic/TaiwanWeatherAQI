@@ -1,4 +1,4 @@
-## Taiwan Weather and AQI (Air Quality Index) 臺灣天氣和空氣品質指標 [![TaiwanWeatherAQI](https://img.shields.io/github/v/release/Proliantaholic/TaiwanWeatherAQI?include_prereleases&style=social)](https://github.com/Proliantaholic/TaiwanWeatherAQI/releases/download/v3.14/TaiwanWeatherAQI_3.14.rmskin) [![TaiwanWeatherAQI](https://img.shields.io/github/license/Proliantaholic/TaiwanWeatherAQI?color=blue)](https://raw.githubusercontent.com/Proliantaholic/TaiwanWeatherAQI/master/LICENSE)
+## Taiwan Weather and AQI (Air Quality Index) 臺灣天氣和空氣品質指標 [![TaiwanWeatherAQI](https://img.shields.io/github/v/release/Proliantaholic/TaiwanWeatherAQI?include_prereleases&style=social)](https://github.com/Proliantaholic/TaiwanWeatherAQI/releases/download/v3.15/TaiwanWeatherAQI_3.15.rmskin) [![TaiwanWeatherAQI](https://img.shields.io/github/license/Proliantaholic/TaiwanWeatherAQI?color=blue)](https://raw.githubusercontent.com/Proliantaholic/TaiwanWeatherAQI/master/LICENSE)
 ## Rainmeter Skin / Rainmeter 面板
 > 顯示臺灣天氣資料和環境部空氣品質監測站的空氣品質指標(AQI, Air Quality Index)和PM<sub>2.5</sub>概況
 
@@ -10,7 +10,7 @@
 ## 使用說明
 
 ### 安裝
-- 下載 [![TaiwanWeatherAQI](https://img.shields.io/github/v/release/Proliantaholic/TaiwanWeatherAQI?label=TaiwanWeatherAQI.rmskin&logoColor=brightgreen&style=social)](https://github.com/Proliantaholic/TaiwanWeatherAQI/releases/download/v3.14/TaiwanWeatherAQI_3.14.rmskin) 然後使用 [Rainmeter](https://www.rainmeter.net) 的 SkinInstaller.exe 安裝.
+- 下載 [![TaiwanWeatherAQI](https://img.shields.io/github/v/release/Proliantaholic/TaiwanWeatherAQI?label=TaiwanWeatherAQI.rmskin&logoColor=brightgreen&style=social)](https://github.com/Proliantaholic/TaiwanWeatherAQI/releases/download/v3.15/TaiwanWeatherAQI_3.15.rmskin) 然後使用 [Rainmeter](https://www.rainmeter.net) 的 SkinInstaller.exe 安裝.
 
 ### 註冊申請API Key
 **自Version 3.00起, AQI資料使用環境部資料開放平臺API v2取用資料, 需要申請API Key後才可使用**
@@ -76,6 +76,21 @@
 
 ----
 ## Changelog
+### Version 3.15 / 2024-03-15
+- 調整 TaiwanWeatherAQI.ini:
+  - 調整 MeterCWAForecastMask 與 MeterCWAWarningMask 顯示的位置
+  - 測站所在縣市名稱與測站區鄉鎮名稱改為查詢 CWACTName.lua
+  - 配合 CWACTName.lua, 調整 ObsStationCountyName, MeterObsSSTime, MeterCWAForecastIssuedTime
+  - 調整網路連線異常時的資料顯示 (如果前一次資料正常則沿用, 再來則顯示網路連線異常)
+- 新增 CWACTName.lua
+- 調整 GetObsData.ps1:
+  - 新增WebDriver錯誤時logging
+  - 抓取資料盡量改為使用 By CSS Selector
+  - 移除查詢測站區鄉鎮名稱
+- 更新 ObsStations202403.txt
+  - 移除測站所在縣市名稱欄位
+  - 更新重複測站名稱
+
 ### Version 3.14 / 2024-01-15
 - 合併 GetWebDriver.ps1 GetObsData.ps1 為 GetObsData.ps1:
   - 改用function寫法, 精簡程式碼
