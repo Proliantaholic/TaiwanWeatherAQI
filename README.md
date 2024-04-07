@@ -1,16 +1,16 @@
-## Taiwan Weather and AQI (Air Quality Index) 臺灣天氣和空氣品質指標 [![TaiwanWeatherAQI](https://img.shields.io/github/v/release/Proliantaholic/TaiwanWeatherAQI?include_prereleases&style=social)](https://github.com/Proliantaholic/TaiwanWeatherAQI/releases/download/v3.15/TaiwanWeatherAQI_3.15.rmskin) [![TaiwanWeatherAQI](https://img.shields.io/github/license/Proliantaholic/TaiwanWeatherAQI?color=blue)](https://raw.githubusercontent.com/Proliantaholic/TaiwanWeatherAQI/master/LICENSE)
+## Taiwan Weather and AQI (Air Quality Index) 臺灣天氣和空氣品質指標 [![TaiwanWeatherAQI](https://img.shields.io/github/v/release/Proliantaholic/TaiwanWeatherAQI?include_prereleases&style=social)](https://github.com/Proliantaholic/TaiwanWeatherAQI/releases/download/v3.20/TaiwanWeatherAQI_3.20.rmskin) [![TaiwanWeatherAQI](https://img.shields.io/github/license/Proliantaholic/TaiwanWeatherAQI?color=blue)](https://raw.githubusercontent.com/Proliantaholic/TaiwanWeatherAQI/master/LICENSE)
 ## Rainmeter Skin / Rainmeter 面板
 > 顯示臺灣天氣資料和環境部空氣品質監測站的空氣品質指標(AQI, Air Quality Index)和PM<sub>2.5</sub>概況
 
 #### 本說明亦發表在: [proliantaholic.blogspot.com](https://proliantaholic.blogspot.com/2019/04/TaiwanWeatherAQI.html)
 
-![proliantaholic.blogspot.com](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjuit6_oeNzUKtTeEzYqlzeP1na6bmAcg4_CntZmXsdCGr9RMACaMi9sJu3ugp4DlnTrbZCEzjJa_o3kIQm9COaXW0fS11PqYhgOVLIPkxG7EVg__tWt4LvKzEy6-ohNvbFkZHKRxhk_hF5EB6e2sEAFmLOIfVgmGzMknvshedzSvyMerxjT4eOg0oj6tM_/s784/skin_v3.13_01.png)
+![proliantaholic.blogspot.com](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiqXwr2oqkp5I1wBdREb7T4bIP-20O7iLW_Av2Pw0yua2rU0tv3DbwpzHWMRq_7mXPU9KWHjphTGVdgV1QY5_TVn05rVGHcJZwDvY_LjfrcyWCJouh5bojIYPOfQ6BXNez6Xy_b_r5yUUPCYHNasBQ6QnuK_QPaf4Eo29K8ye5bXjRZyfcGKiI6HzoNHIcC/s784/skin_v3.20_01.png)
 ![proliantaholic.blogspot.com](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgdbVIL8x5QUOsECSFWbdIzEkHGiZCrSaehU1galizi66LGT7ZBF4HRU5snPeDvlVbJR4L4tjp4bbqI8h4v4_8cniuMMZKb1ovhy0YTSSbbyGJU04bCdxSdMiuJsN4eII2mpw_ncSlTvU7xKQRSOGwBefZeWq3V64gpYRGnVZO_ITmBf0T8IMe1y_Q74ETZ/s786/skin_v3.13_02.png)
 ----
 ## 使用說明
 
 ### 安裝
-- 下載 [![TaiwanWeatherAQI](https://img.shields.io/github/v/release/Proliantaholic/TaiwanWeatherAQI?label=TaiwanWeatherAQI.rmskin&logoColor=brightgreen&style=social)](https://github.com/Proliantaholic/TaiwanWeatherAQI/releases/download/v3.15/TaiwanWeatherAQI_3.15.rmskin) 然後使用 [Rainmeter](https://www.rainmeter.net) 的 SkinInstaller.exe 安裝.
+- 下載 [![TaiwanWeatherAQI](https://img.shields.io/github/v/release/Proliantaholic/TaiwanWeatherAQI?label=TaiwanWeatherAQI.rmskin&logoColor=brightgreen&style=social)](https://github.com/Proliantaholic/TaiwanWeatherAQI/releases/download/v3.20/TaiwanWeatherAQI_3.20.rmskin) 然後使用 [Rainmeter](https://www.rainmeter.net) 的 SkinInstaller.exe 安裝.
 
 ### 註冊申請API Key
 **自Version 3.00起, AQI資料使用環境部資料開放平臺API v2取用資料, 需要申請API Key後才可使用**
@@ -36,11 +36,6 @@
 天氣測站名稱可參考: [中央氣象署全球資訊網站 | 縣市測站列表](https://www.cwa.gov.tw/V8/C/W/OBS_County.html?ID=63) 找到你想要的測站, 網頁上方標題:XX測站觀測資料, XX即為測站名稱. 例如:臺北
 
 空品測站名稱可參考: [空氣品質監測站基本資料](https://data.moenv.gov.tw/dataset/detail/AQX_P_07) 測站名稱欄位. 例如:中山
-
-設定瀏覽器類別: (Chrome, Edge, Firefox)
-- Version 2.0起使用瀏覽器讀取中央氣象署全球資訊網站天氣資料
-- 在 Settings.txt 內設定. (在 TaiwanWeatherAQI\@RESOURCES\Settings 目錄內)
-- 或是在面板上按右鍵 -> 自訂面板動作 -> 選擇你有安裝的瀏覽器類別 (預設是Chrome)
 
 ### 使用
 用滑鼠左鍵雙擊不同區域可以帶出不同資訊:
@@ -68,14 +63,16 @@
 - 天氣資料與日出日沒時刻, 縣市天氣概況: [中央氣象署全球資訊網站](https://www.cwa.gov.tw/V8/C/information.html)
 - 空氣品質: [環境部 環境資源資料開放平臺](https://data.moenv.gov.tw/)
 - 部分桌布底圖相片來自Pexels [(Pexels上的所有相片和影片均可免費使用)](https://www.pexels.com/zh-tw/license), 其餘桌布相片為本人拍攝
-- [Google Chrome driver](https://googlechromelabs.github.io/chrome-for-testing/last-known-good-versions-with-downloads.json)
-- [Microsoft Edge driver](https://msedgedriver.azureedge.net)
-- [Firefox driver](https://api.github.com/repos/mozilla/geckodriver/releases)
-- [Selenium WebDriver](https://www.nuget.org/packages/Selenium.WebDriver)
-- [Json.NET Newtonsoft.Json](https://github.com/JamesNK/Newtonsoft.Json)
+- [Html Agility Pack](https://www.nuget.org/packages/HtmlAgilityPack)
 
 ----
 ## Changelog
+### Version 3.20 / 2024-04-07
+- 調整 TaiwanWeatherAQI.ini, Settings.txt
+- 改寫 GetObsData.ps1:
+  - 天氣資料改用PowerShell透過Html Agility Pack去讀取分析中央氣象局全球資訊網站資料, 不再使用Selenium透過瀏覽器抓資料
+- 更新 ObsStations202404.txt
+
 ### Version 3.15 / 2024-03-15
 - 調整 TaiwanWeatherAQI.ini:
   - 調整 MeterCWAForecastMask 與 MeterCWAWarningMask 顯示的位置
