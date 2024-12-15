@@ -1,4 +1,4 @@
-## Taiwan Weather and AQI (Air Quality Index) 臺灣天氣和空氣品質指標 [![TaiwanWeatherAQI](https://img.shields.io/github/v/release/Proliantaholic/TaiwanWeatherAQI?include_prereleases&style=social)](https://github.com/Proliantaholic/TaiwanWeatherAQI/releases/download/v3.21/TaiwanWeatherAQI_3.21.rmskin) [![TaiwanWeatherAQI](https://img.shields.io/github/license/Proliantaholic/TaiwanWeatherAQI?color=blue)](https://raw.githubusercontent.com/Proliantaholic/TaiwanWeatherAQI/master/LICENSE)
+## Taiwan Weather and AQI (Air Quality Index) 臺灣天氣和空氣品質指標 [![TaiwanWeatherAQI](https://img.shields.io/github/v/release/Proliantaholic/TaiwanWeatherAQI?include_prereleases&style=social)](https://github.com/Proliantaholic/TaiwanWeatherAQI/releases/download/v3.22/TaiwanWeatherAQI_3.22.rmskin) [![TaiwanWeatherAQI](https://img.shields.io/github/license/Proliantaholic/TaiwanWeatherAQI?color=blue)](https://raw.githubusercontent.com/Proliantaholic/TaiwanWeatherAQI/master/LICENSE)
 ## Rainmeter Skin / Rainmeter 面板
 > 顯示臺灣天氣資料和環境部空氣品質監測站的空氣品質指標(AQI, Air Quality Index)和PM<sub>2.5</sub>概況
 
@@ -10,7 +10,7 @@
 ## 使用說明
 
 ### 安裝
-- 下載 [![TaiwanWeatherAQI](https://img.shields.io/github/v/release/Proliantaholic/TaiwanWeatherAQI?label=TaiwanWeatherAQI.rmskin&logoColor=brightgreen&style=social)](https://github.com/Proliantaholic/TaiwanWeatherAQI/releases/download/v3.21/TaiwanWeatherAQI_3.21.rmskin) 然後使用 [Rainmeter](https://www.rainmeter.net) 的 SkinInstaller.exe 安裝.
+- 下載 [![TaiwanWeatherAQI](https://img.shields.io/github/v/release/Proliantaholic/TaiwanWeatherAQI?label=TaiwanWeatherAQI.rmskin&logoColor=brightgreen&style=social)](https://github.com/Proliantaholic/TaiwanWeatherAQI/releases/download/v3.22/TaiwanWeatherAQI_3.22.rmskin) 然後使用 [Rainmeter](https://www.rainmeter.net) 的 SkinInstaller.exe 安裝.
 
 ### 註冊申請API Key
 **自Version 3.00起, AQI資料使用環境部資料開放平臺API v2取用資料, 需要申請API Key後才可使用**
@@ -52,7 +52,7 @@
 將滑鼠指標移至不同區域可以顯示不同資訊:
 - 天氣測站名稱文字:
     - 顯示天氣測站所在縣市的天氣預報, 天氣概況標題, 與資料更新時間
-    - 顯示天氣測站所在鄉鎮市區的體感溫度預報, 六小時降雨機率預報
+    - 顯示天氣測站所在鄉鎮市區的體感溫度預報, 3小時降雨機率預報
 - 警示圖示⚠️: 顯示目前的警特報
 - AQI數字或PM<sub>2.5</sub>數字: 顯示空氣污染指標物與資料更新時間 (第一行)
 - AQI數字或PM<sub>2.5</sub>數字: 顯示空品測站的溫度濕度與資料更新時間 (第二行)
@@ -67,6 +67,12 @@
 
 ----
 ## Changelog
+### Version 3.22 / 2024-12-15
+- 調整 Settings.txt
+- 調整 GetObsData.ps1:
+  - 調整為3小時降雨機率預報
+- 更新 ObsStations202412.txt
+
 ### Version 3.21 / 2024-09-09
 - 調整 Settings.txt
 - 調整 GetObsData.ps1:
