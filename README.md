@@ -1,4 +1,4 @@
-## Taiwan Weather and AQI (Air Quality Index) 臺灣天氣和空氣品質指標 [![TaiwanWeatherAQI](https://img.shields.io/github/v/release/Proliantaholic/TaiwanWeatherAQI?include_prereleases&style=social)](https://github.com/Proliantaholic/TaiwanWeatherAQI/releases/download/v3.22/TaiwanWeatherAQI_3.22.rmskin) [![TaiwanWeatherAQI](https://img.shields.io/github/license/Proliantaholic/TaiwanWeatherAQI?color=blue)](https://raw.githubusercontent.com/Proliantaholic/TaiwanWeatherAQI/master/LICENSE)
+## Taiwan Weather and AQI (Air Quality Index) 臺灣天氣和空氣品質指標 [![TaiwanWeatherAQI](https://img.shields.io/github/v/release/Proliantaholic/TaiwanWeatherAQI?include_prereleases&style=social)](https://github.com/Proliantaholic/TaiwanWeatherAQI/releases/download/v3.23/TaiwanWeatherAQI_3.23.rmskin) [![TaiwanWeatherAQI](https://img.shields.io/github/license/Proliantaholic/TaiwanWeatherAQI?color=blue)](https://raw.githubusercontent.com/Proliantaholic/TaiwanWeatherAQI/master/LICENSE)
 ## Rainmeter Skin / Rainmeter 面板
 > 顯示臺灣天氣資料和環境部空氣品質監測站的空氣品質指標(AQI, Air Quality Index)和PM<sub>2.5</sub>概況
 
@@ -10,7 +10,7 @@
 ## 使用說明
 
 ### 安裝
-- 下載 [![TaiwanWeatherAQI](https://img.shields.io/github/v/release/Proliantaholic/TaiwanWeatherAQI?label=TaiwanWeatherAQI.rmskin&logoColor=brightgreen&style=social)](https://github.com/Proliantaholic/TaiwanWeatherAQI/releases/download/v3.22/TaiwanWeatherAQI_3.22.rmskin) 然後使用 [Rainmeter](https://www.rainmeter.net) 的 SkinInstaller.exe 安裝.
+- 下載 [![TaiwanWeatherAQI](https://img.shields.io/github/v/release/Proliantaholic/TaiwanWeatherAQI?label=TaiwanWeatherAQI.rmskin&logoColor=brightgreen&style=social)](https://github.com/Proliantaholic/TaiwanWeatherAQI/releases/download/v3.23/TaiwanWeatherAQI_3.23.rmskin) 然後使用 [Rainmeter](https://www.rainmeter.net) 的 SkinInstaller.exe 安裝.
 
 ### 註冊申請API Key
 **自Version 3.00起, AQI資料使用環境部資料開放平臺API v2取用資料, 需要申請API Key後才可使用**
@@ -62,11 +62,17 @@
 - [政府資料開放授權條款](https://data.gov.tw/license/)
 - 天氣資料與日出日沒時刻, 縣市天氣概況: [中央氣象署全球資訊網站](https://www.cwa.gov.tw/V8/C/information.html)
 - 空氣品質: [環境部 環境資源資料開放平臺](https://data.moenv.gov.tw/)
-- 部分桌布底圖相片來自Pexels [(Pexels上的所有相片和影片均可免費使用)](https://www.pexels.com/zh-tw/license), 其餘桌布相片為本人拍攝
+- 部分背景相片來自Pexels [(Pexels上的所有相片和影片均可免費使用)](https://www.pexels.com/zh-tw/license), 其餘背景相片為本人拍攝
 - [Html Agility Pack](https://www.nuget.org/packages/HtmlAgilityPack)
 
 ----
 ## Changelog
+### Version 3.23 / 2025-03-12
+- 調整 TaiwanWeatherAQI.ini GetObsData.ps1
+  - 合併 CWACTName.lua CWAWarnAllName.lua CWAWarnAllURL.lua 為 CWALua.lua
+  - 調整天氣圖示, 天氣描述, 天氣背景顯示時機
+- 調整 Settings.txt
+- 更新 ObsStations20250312.txt
 ### Version 3.22 / 2024-12-15
 - 調整 Settings.txt
 - 調整 GetObsData.ps1:
