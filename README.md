@@ -1,16 +1,16 @@
-## Taiwan Weather and AQI (Air Quality Index) 臺灣天氣和空氣品質指標 [![TaiwanWeatherAQI](https://img.shields.io/github/v/release/Proliantaholic/TaiwanWeatherAQI?include_prereleases&style=social)](https://github.com/Proliantaholic/TaiwanWeatherAQI/releases/download/v3.23/TaiwanWeatherAQI_3.23.rmskin) [![TaiwanWeatherAQI](https://img.shields.io/github/license/Proliantaholic/TaiwanWeatherAQI?color=blue)](https://raw.githubusercontent.com/Proliantaholic/TaiwanWeatherAQI/master/LICENSE)
+## Taiwan Weather and AQI (Air Quality Index) 臺灣天氣和空氣品質指標 [![TaiwanWeatherAQI](https://img.shields.io/github/v/release/Proliantaholic/TaiwanWeatherAQI?include_prereleases&style=social)](https://github.com/Proliantaholic/TaiwanWeatherAQI/releases/download/v3.24/TaiwanWeatherAQI_3.24.rmskin) [![TaiwanWeatherAQI](https://img.shields.io/github/license/Proliantaholic/TaiwanWeatherAQI?color=blue)](https://raw.githubusercontent.com/Proliantaholic/TaiwanWeatherAQI/master/LICENSE)
 ## Rainmeter Skin / Rainmeter 面板
 > 顯示臺灣天氣資料和環境部空氣品質監測站的空氣品質指標(AQI, Air Quality Index)和PM<sub>2.5</sub>概況
 
 #### 本說明亦發表在: [proliantaholic.blogspot.com](https://proliantaholic.blogspot.com/2019/04/TaiwanWeatherAQI.html)
 
-![proliantaholic.blogspot.com](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiqXwr2oqkp5I1wBdREb7T4bIP-20O7iLW_Av2Pw0yua2rU0tv3DbwpzHWMRq_7mXPU9KWHjphTGVdgV1QY5_TVn05rVGHcJZwDvY_LjfrcyWCJouh5bojIYPOfQ6BXNez6Xy_b_r5yUUPCYHNasBQ6QnuK_QPaf4Eo29K8ye5bXjRZyfcGKiI6HzoNHIcC/s784/skin_v3.20_01.png)
-![proliantaholic.blogspot.com](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgdbVIL8x5QUOsECSFWbdIzEkHGiZCrSaehU1galizi66LGT7ZBF4HRU5snPeDvlVbJR4L4tjp4bbqI8h4v4_8cniuMMZKb1ovhy0YTSSbbyGJU04bCdxSdMiuJsN4eII2mpw_ncSlTvU7xKQRSOGwBefZeWq3V64gpYRGnVZO_ITmBf0T8IMe1y_Q74ETZ/s786/skin_v3.13_02.png)
+![proliantaholic.blogspot.com](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhua0yLHNgc_mi2jBy7RqlZr8Ml52G75NTdn2cLrGX-fIBoGfs_UGaqO68YTbaCd1ytu2g7FILXZ77tHWGfKNh7SAkUnKEs15ZeUnlNgw-JubyGbs2GpzDU627sIjbVM28il55WOM_hykPF1x1fDMRt71z_-7FQ1GV8I2kbm-_W0sdHJBgU_t9-RJPo3pVA/s784/skin_v3.24_01.png)
+![proliantaholic.blogspot.com](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhMpii0_n8PqmPkcve2KJwOsPiwiQpA0U9r4vyfuYLRBhDEV4Jt4wiSTlZu4eKPDzjyZrH7BYsGhRkKCwvJdEC0PRiFaW2Zs3ElfZOnH5c1wcu5pCwXQC2VUO7e40yu1AXUSjduZVuNat9jRGt9QkrmqiWO9RRQRNTO7SqQy2W-sD0PCdPDIn8yzLQgRnH4/s786/skin_v3.24_02.png)
 ----
 ## 使用說明
 
 ### 安裝
-- 下載 [![TaiwanWeatherAQI](https://img.shields.io/github/v/release/Proliantaholic/TaiwanWeatherAQI?label=TaiwanWeatherAQI.rmskin&logoColor=brightgreen&style=social)](https://github.com/Proliantaholic/TaiwanWeatherAQI/releases/download/v3.23/TaiwanWeatherAQI_3.23.rmskin) 然後使用 [Rainmeter](https://www.rainmeter.net) 的 SkinInstaller.exe 安裝.
+- 下載 [![TaiwanWeatherAQI](https://img.shields.io/github/v/release/Proliantaholic/TaiwanWeatherAQI?label=TaiwanWeatherAQI.rmskin&logoColor=brightgreen&style=social)](https://github.com/Proliantaholic/TaiwanWeatherAQI/releases/download/v3.24/TaiwanWeatherAQI_3.24.rmskin) 然後使用 [Rainmeter](https://www.rainmeter.net) 的 SkinInstaller.exe 安裝.
 
 ### 註冊申請API Key
 **自Version 3.00起, AQI資料使用環境部資料開放平臺API v2取用資料, 需要申請API Key後才可使用**
@@ -64,15 +64,25 @@
 - 空氣品質: [環境部 環境資源資料開放平臺](https://data.moenv.gov.tw/)
 - 部分背景相片來自Pexels [(Pexels上的所有相片和影片均可免費使用)](https://www.pexels.com/zh-tw/license), 其餘背景相片為本人拍攝
 - [Html Agility Pack](https://www.nuget.org/packages/HtmlAgilityPack)
+- 天氣圖示原圖來自: [erikflowers/weather-icons](https://github.com/erikflowers/weather-icons), 由svg格式轉換及調整為png格式後使用
 
 ----
 ## Changelog
+### Version 3.24 / 2025-04-21
+- 更新 天氣圖示, 新天氣圖示原圖來自: [erikflowers/weather-icons](https://github.com/erikflowers/weather-icons)
+- 調整 TaiwanWeatherAQI.ini
+  - !Delay 改為 !Update
+  - 調整 使用新天氣圖示
+- 調整 GetObsData.ps1:
+  - 清除舊code
+- 調整 Settings.txt
+- 更新 ObsStations202504.txt
 ### Version 3.23 / 2025-03-12
 - 調整 TaiwanWeatherAQI.ini GetObsData.ps1
   - 合併 CWACTName.lua CWAWarnAllName.lua CWAWarnAllURL.lua 為 CWALua.lua
   - 調整天氣圖示, 天氣描述, 天氣背景顯示時機
 - 調整 Settings.txt
-- 更新 ObsStations20250312.txt
+- 更新 ObsStations202503.txt
 ### Version 3.22 / 2024-12-15
 - 調整 Settings.txt
 - 調整 GetObsData.ps1:
