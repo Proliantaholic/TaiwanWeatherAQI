@@ -1,4 +1,4 @@
-## Taiwan Weather and AQI (Air Quality Index) 臺灣天氣和空氣品質指標 [![TaiwanWeatherAQI](https://img.shields.io/github/v/release/Proliantaholic/TaiwanWeatherAQI?include_prereleases&style=social)](https://github.com/Proliantaholic/TaiwanWeatherAQI/releases/download/v3.25/TaiwanWeatherAQI_3.25.rmskin) [![TaiwanWeatherAQI](https://img.shields.io/github/license/Proliantaholic/TaiwanWeatherAQI?color=blue)](https://raw.githubusercontent.com/Proliantaholic/TaiwanWeatherAQI/master/LICENSE)
+## Taiwan Weather and AQI (Air Quality Index) 臺灣天氣和空氣品質指標 [![TaiwanWeatherAQI](https://img.shields.io/github/v/release/Proliantaholic/TaiwanWeatherAQI?include_prereleases&style=social)](https://github.com/Proliantaholic/TaiwanWeatherAQI/releases/download/v3.26/TaiwanWeatherAQI_3.26.rmskin) [![TaiwanWeatherAQI](https://img.shields.io/github/license/Proliantaholic/TaiwanWeatherAQI?color=blue)](https://raw.githubusercontent.com/Proliantaholic/TaiwanWeatherAQI/master/LICENSE)
 ## Rainmeter Skin / Rainmeter 面板
 > 顯示臺灣天氣資料和環境部空氣品質監測站的空氣品質指標(AQI, Air Quality Index)和PM<sub>2.5</sub>概況
 
@@ -10,7 +10,7 @@
 ## 使用說明
 
 ### 安裝
-- 下載 [![TaiwanWeatherAQI](https://img.shields.io/github/v/release/Proliantaholic/TaiwanWeatherAQI?label=TaiwanWeatherAQI.rmskin&logoColor=brightgreen&style=social)](https://github.com/Proliantaholic/TaiwanWeatherAQI/releases/download/v3.25/TaiwanWeatherAQI_3.25.rmskin) 然後使用 [Rainmeter](https://www.rainmeter.net) 的 SkinInstaller.exe 安裝.
+- 下載 [![TaiwanWeatherAQI](https://img.shields.io/github/v/release/Proliantaholic/TaiwanWeatherAQI?label=TaiwanWeatherAQI.rmskin&logoColor=brightgreen&style=social)](https://github.com/Proliantaholic/TaiwanWeatherAQI/releases/download/v3.26/TaiwanWeatherAQI_3.26.rmskin) 然後使用 [Rainmeter](https://www.rainmeter.net) 的 SkinInstaller.exe 安裝.
 
 ### 註冊申請API Key
 **自Version 3.00起, AQI資料使用環境部資料開放平臺API v2取用資料, 需要申請API Key後才可使用**
@@ -68,6 +68,17 @@
 
 ----
 ## Changelog
+### Version 3.26 / 2025-12-11
+- 調整 GetObsData.ps1:
+  - 修正避免Invoke-WebRequest Security Confirmation Prompt
+- 調整 TaiwanWeatherAQI.ini
+  - AQI程式碼移至AQI.inc, 改為include
+  - 調整 [MeasureObsStationId], 刪除 [MeasureObsStationNameString]
+  - 調整 能見度 無觀測 改為 -
+- 調整 AQI.inc
+  - 調整 空品測站名稱全形半形括號處理
+- 調整 Settings.txt
+- 更新 ObsStations202512.txt
 ### Version 3.25 / 2025-08-03
 - 調整 TaiwanWeatherAQI.ini
   - 調整 天氣描述對應天氣圖示 (有雷)
