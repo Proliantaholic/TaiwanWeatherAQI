@@ -1,4 +1,4 @@
-## Taiwan Weather and AQI (Air Quality Index) 臺灣天氣和空氣品質指標 [![TaiwanWeatherAQI](https://img.shields.io/github/v/release/Proliantaholic/TaiwanWeatherAQI?include_prereleases&style=social)](https://github.com/Proliantaholic/TaiwanWeatherAQI/releases/download/v3.26/TaiwanWeatherAQI_3.26.rmskin) [![TaiwanWeatherAQI](https://img.shields.io/github/license/Proliantaholic/TaiwanWeatherAQI?color=blue)](https://raw.githubusercontent.com/Proliantaholic/TaiwanWeatherAQI/master/LICENSE)
+## Taiwan Weather and AQI (Air Quality Index) 臺灣天氣和空氣品質指標 [![TaiwanWeatherAQI](https://img.shields.io/github/v/release/Proliantaholic/TaiwanWeatherAQI?include_prereleases&style=social)](https://github.com/Proliantaholic/TaiwanWeatherAQI/releases/download/v3.27/TaiwanWeatherAQI_3.27.rmskin) [![TaiwanWeatherAQI](https://img.shields.io/github/license/Proliantaholic/TaiwanWeatherAQI?color=blue)](https://raw.githubusercontent.com/Proliantaholic/TaiwanWeatherAQI/master/LICENSE)
 ## Rainmeter Skin / Rainmeter 面板
 > 顯示臺灣天氣資料和環境部空氣品質監測站的空氣品質指標(AQI, Air Quality Index)和PM<sub>2.5</sub>概況
 
@@ -10,13 +10,13 @@
 ## 使用說明
 
 ### 安裝
-- 下載 [![TaiwanWeatherAQI](https://img.shields.io/github/v/release/Proliantaholic/TaiwanWeatherAQI?label=TaiwanWeatherAQI.rmskin&logoColor=brightgreen&style=social)](https://github.com/Proliantaholic/TaiwanWeatherAQI/releases/download/v3.26/TaiwanWeatherAQI_3.26.rmskin) 然後使用 [Rainmeter](https://www.rainmeter.net) 的 SkinInstaller.exe 安裝.
+- 下載 [![TaiwanWeatherAQI](https://img.shields.io/github/v/release/Proliantaholic/TaiwanWeatherAQI?label=TaiwanWeatherAQI.rmskin&logoColor=brightgreen&style=social)](https://github.com/Proliantaholic/TaiwanWeatherAQI/releases/download/v3.27/TaiwanWeatherAQI_3.27.rmskin) 然後使用 [Rainmeter](https://www.rainmeter.net) 的 SkinInstaller.exe 安裝.
 
 ### 註冊申請API Key
-**自Version 3.00起, AQI資料使用環境部資料開放平臺API v2取用資料, 需要申請API Key後才可使用**
+**自Version 3.00起, AQI資料使用環境部環境資料開放平臺API v2取用資料, 需要申請API Key後才可使用**
 
 關於相關授權之申請, 請參考:
-- [環境部環境資源資料開放平臺會員註冊](https://data.moenv.gov.tw/api-term)
+- [環境部環境資料開放平臺會員註冊](https://data.moenv.gov.tw/api-term)
 - [**取得API Key之程序**](https://data.moenv.gov.tw/paradigm)
 
 ### 設定
@@ -44,10 +44,10 @@
 - 天氣圖資文字: 中央氣象署全球資訊網站 最新天氣圖資網頁
 - 日出日沒時刻/城市文字: 中央氣象署全球資訊網站 縣市天氣預報網頁的日出日沒時刻欄位(根據天氣地點所在縣市)與天文資料下載網頁(日出日沒&曙暮光時刻表)
 - 警示圖示⚠️: 中央氣象署全球資訊網站 警特報網頁
-- AQI數字: 環境部 環境資源資料開放平臺 空氣品質指標(AQI), 空氣品質監測小時值資料(其它測項)
+- AQI數字: 環境部 環境資料開放平臺 空氣品質指標(AQI), 空氣品質監測小時值資料(其它測項)
 - AQI狀態圖案/文字/條狀圖: 空氣品質指標(AQI)與健康影響及活動建議說明
 - 空品測站名稱文字: 該測站之影像還有位置 (Google Map)
-- PM<sub>2.5</sub>/數字: 環境保護署 空氣品質監測網
+- PM<sub>2.5</sub>/數字: 環境部 空氣品質監測網
 
 將滑鼠指標移至不同區域可以顯示不同資訊:
 - 天氣測站名稱文字:
@@ -68,6 +68,14 @@
 
 ----
 ## Changelog
+### Version 3.27 / 2026-05-17
+- Rainmeter 4.5.24.3857 更新造成WebParser RegExp無法正常解析空品測站名稱
+  - TaiwanWeatherAQI.ini
+    - 調整 [MeasureMoEnvApiKey]
+  - AQI.inc
+    - 調整 RegExp空品測站名稱改用變數 [MeasureParentAQI][MeasureParentAQIOther][MeasureRealtimePicURL]
+- 調整 Settings.txt
+- 更新 ObsStations202605.txt
 ### Version 3.26 / 2025-12-11
 - 調整 GetObsData.ps1:
   - 修正避免Invoke-WebRequest Security Confirmation Prompt
