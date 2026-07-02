@@ -1,16 +1,17 @@
-## Taiwan Weather and AQI (Air Quality Index) 臺灣天氣和空氣品質指標 [![TaiwanWeatherAQI](https://img.shields.io/github/v/release/Proliantaholic/TaiwanWeatherAQI?include_prereleases&style=social)](https://github.com/Proliantaholic/TaiwanWeatherAQI/releases/download/v3.27/TaiwanWeatherAQI_3.27.rmskin) [![TaiwanWeatherAQI](https://img.shields.io/github/license/Proliantaholic/TaiwanWeatherAQI?color=blue)](https://raw.githubusercontent.com/Proliantaholic/TaiwanWeatherAQI/master/LICENSE)
+## Taiwan Weather and AQI (Air Quality Index) 臺灣天氣和空氣品質指標 [![TaiwanWeatherAQI](https://img.shields.io/github/v/release/Proliantaholic/TaiwanWeatherAQI?include_prereleases&style=social)](https://github.com/Proliantaholic/TaiwanWeatherAQI/releases/download/v3.30/TaiwanWeatherAQI_3.30.rmskin) [![TaiwanWeatherAQI](https://img.shields.io/github/license/Proliantaholic/TaiwanWeatherAQI?color=blue)](https://raw.githubusercontent.com/Proliantaholic/TaiwanWeatherAQI/master/LICENSE)
 ## Rainmeter Skin / Rainmeter 面板
 > 顯示臺灣天氣資料和環境部空氣品質監測站的空氣品質指標(AQI, Air Quality Index)和PM<sub>2.5</sub>概況
 
 #### 本說明亦發表在: [proliantaholic.blogspot.com](https://proliantaholic.blogspot.com/2019/04/TaiwanWeatherAQI.html)
 
 ![proliantaholic.blogspot.com](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhua0yLHNgc_mi2jBy7RqlZr8Ml52G75NTdn2cLrGX-fIBoGfs_UGaqO68YTbaCd1ytu2g7FILXZ77tHWGfKNh7SAkUnKEs15ZeUnlNgw-JubyGbs2GpzDU627sIjbVM28il55WOM_hykPF1x1fDMRt71z_-7FQ1GV8I2kbm-_W0sdHJBgU_t9-RJPo3pVA/s784/skin_v3.24_01.png)
+![proliantaholic.blogspot.com](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgDIT3tWnuyNViwFGXJ6YjQSqKoniMzs855O1iTgsmOVwQal5DNnTd6GE7Cg9DkjkBggrNRGKdHd5_sbVjJkxarAsAqRLUk97mvcDNbasgSepjWhf1AsT-G1LZ1kIR2fxI_LrjD0G_d3V6AyEs00VSymG5D1IA4l9wEzgX2Hu2iwGMTx7zHk9rVQf6OQEjs/s784/skin_v3.30_01.png)
 ![proliantaholic.blogspot.com](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhMpii0_n8PqmPkcve2KJwOsPiwiQpA0U9r4vyfuYLRBhDEV4Jt4wiSTlZu4eKPDzjyZrH7BYsGhRkKCwvJdEC0PRiFaW2Zs3ElfZOnH5c1wcu5pCwXQC2VUO7e40yu1AXUSjduZVuNat9jRGt9QkrmqiWO9RRQRNTO7SqQy2W-sD0PCdPDIn8yzLQgRnH4/s786/skin_v3.24_02.png)
 ----
 ## 使用說明
 
 ### 安裝
-- 下載 [![TaiwanWeatherAQI](https://img.shields.io/github/v/release/Proliantaholic/TaiwanWeatherAQI?label=TaiwanWeatherAQI.rmskin&logoColor=brightgreen&style=social)](https://github.com/Proliantaholic/TaiwanWeatherAQI/releases/download/v3.27/TaiwanWeatherAQI_3.27.rmskin) 然後使用 [Rainmeter](https://www.rainmeter.net) 的 SkinInstaller.exe 安裝.
+- 下載 [![TaiwanWeatherAQI](https://img.shields.io/github/v/release/Proliantaholic/TaiwanWeatherAQI?label=TaiwanWeatherAQI.rmskin&logoColor=brightgreen&style=social)](https://github.com/Proliantaholic/TaiwanWeatherAQI/releases/download/v3.30/TaiwanWeatherAQI_3.30.rmskin) 然後使用 [Rainmeter](https://www.rainmeter.net) 的 SkinInstaller.exe 安裝.
 
 ### 註冊申請API Key
 **自Version 3.00起, AQI資料使用環境部環境資料開放平臺API v2取用資料, 需要申請API Key後才可使用**
@@ -32,6 +33,10 @@
 也可以透過滑鼠右鍵單擊不同區域變更設定: (輸入後請按Enter確定變更)
 - 天氣測站名稱文字: 天氣測站名稱(ObsStationName)
 - 空品測站名稱文字: 空氣品質監測站名稱(AirSiteName)
+
+預設使用 TaiwanWeatherAQI.ini, 可在面板上按右鍵 -> 切換, 選擇想使用的版本
+- TaiwanWeatherAQI.ini: 使用WebParser抓資料, 速度較快
+- TaiwanWeatherAQIps.ini: 使用GetObsData.ps1抓資料, 需要下載HtmlAgilityPack, 比較穩定
 
 天氣測站名稱可參考: [中央氣象署全球資訊網站 | 縣市測站列表](https://www.cwa.gov.tw/V8/C/W/OBS_County.html?ID=63) 找到你想要的測站, 網頁上方標題:XX測站觀測資料, XX即為測站名稱. 例如:臺北
 
@@ -68,6 +73,19 @@
 
 ----
 ## Changelog
+### Version 3.30 / 2026-07-02
+- 調整 TaiwanWeatherAQI.ini
+  - 原本呼叫 GetObsData.ps1/HtmlAgilityPack.dll 抓資料的版本改名為 TaiwanWeatherAQIps.ini
+  - TaiwanWeatherAQI.ini 改用 WebParser 直接抓取天氣觀測資料
+    - 預設使用 TaiwanWeatherAQI.ini, 可在面板上按右鍵 -> 切換, 選擇想使用的版本
+    - TaiwanWeatherAQI.ini (新的預設版本) 呼叫WebParser抓資料, 速度較快
+    - TaiwanWeatherAQIps.ini (舊有版本改名) 呼叫GetObsData.ps1抓資料, 需要下載HtmlAgilityPack, 比較穩定
+  - 調整 天氣描述對應天氣圖示 (晴有霧, 多雲有霧, 陰有霧)
+  - 調整 [MeasureParentAQI], [MeasureParentAQIOther], [MeasureRealtimePicURL]: Enable方式
+- 調整 AQI.inc
+  - 調整 [MeasureParentAQI], [MeasureParentAQIOther], [MeasureRealtimePicURL]: UpdateRate
+- 調整 Settings.txt (空品測站名稱, DayOrNight)
+- 更新 ObsStations202607.txt
 ### Version 3.27 / 2026-05-17
 - Rainmeter 4.5.24.3857 更新造成WebParser RegExp無法正常解析空品測站名稱
   - TaiwanWeatherAQI.ini
