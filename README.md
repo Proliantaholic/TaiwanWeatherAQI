@@ -1,4 +1,4 @@
-## Taiwan Weather and AQI (Air Quality Index) 臺灣天氣和空氣品質指標 [![TaiwanWeatherAQI](https://img.shields.io/github/v/release/Proliantaholic/TaiwanWeatherAQI?include_prereleases&style=social)](https://github.com/Proliantaholic/TaiwanWeatherAQI/releases/download/v3.30/TaiwanWeatherAQI_3.30.rmskin) [![TaiwanWeatherAQI](https://img.shields.io/badge/license-MIT-blue)](https://raw.githubusercontent.com/Proliantaholic/TaiwanWeatherAQI/master/LICENSE)
+## Taiwan Weather and AQI (Air Quality Index) 臺灣天氣和空氣品質指標 [![TaiwanWeatherAQI](https://img.shields.io/github/v/release/Proliantaholic/TaiwanWeatherAQI?include_prereleases&style=social)](https://github.com/Proliantaholic/TaiwanWeatherAQI/releases/download/v3.31/TaiwanWeatherAQI_3.31.rmskin) [![TaiwanWeatherAQI](https://img.shields.io/badge/license-MIT-blue)](https://raw.githubusercontent.com/Proliantaholic/TaiwanWeatherAQI/master/LICENSE)
 ## Rainmeter Skin / Rainmeter 面板
 > 顯示臺灣天氣資料和環境部空氣品質監測站的空氣品質指標(AQI, Air Quality Index)和PM<sub>2.5</sub>概況
 
@@ -11,7 +11,7 @@
 ## 使用說明
 
 ### 安裝
-- 下載 [![TaiwanWeatherAQI](https://img.shields.io/github/v/release/Proliantaholic/TaiwanWeatherAQI?label=TaiwanWeatherAQI.rmskin&logoColor=brightgreen&style=social)](https://github.com/Proliantaholic/TaiwanWeatherAQI/releases/download/v3.30/TaiwanWeatherAQI_3.30.rmskin) 然後使用 [Rainmeter](https://www.rainmeter.net) 的 SkinInstaller.exe 安裝.
+- 下載 [![TaiwanWeatherAQI](https://img.shields.io/github/v/release/Proliantaholic/TaiwanWeatherAQI?label=TaiwanWeatherAQI.rmskin&logoColor=brightgreen&style=social)](https://github.com/Proliantaholic/TaiwanWeatherAQI/releases/download/v3.31/TaiwanWeatherAQI_3.31.rmskin) 然後使用 [Rainmeter](https://www.rainmeter.net) 的 SkinInstaller.exe 安裝.
 
 ### 註冊申請API Key
 **自Version 3.00起, AQI資料使用環境部環境資料開放平臺API v2取用資料, 需要申請API Key後才可使用**
@@ -73,6 +73,14 @@
 
 ----
 ## Changelog
+### Version 3.31 / 2026-07-10
+- 調整 AQI.inc
+  - 調整 簡化部分Measure命名
+  - 調整 RegExp [MeasureAQIapi], [MeasureAQIOther]
+- 調整 TaiwanWeatherAQI.ini, TaiwanWeatherAQIps.ini
+  - 調整 配合AQI.inc命名變動
+- 調整 CWALua.lua
+  - 新增 巨浪告警
 ### Version 3.30 / 2026-07-02
 - 調整 TaiwanWeatherAQI.ini
   - 原本呼叫 GetObsData.ps1/HtmlAgilityPack.dll 抓資料的版本改名為 TaiwanWeatherAQIps.ini
