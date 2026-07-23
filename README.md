@@ -1,17 +1,17 @@
-## Taiwan Weather and AQI (Air Quality Index) 臺灣天氣和空氣品質指標 [![TaiwanWeatherAQI](https://img.shields.io/github/v/release/Proliantaholic/TaiwanWeatherAQI?logo=Rainmeter&color=green)](https://github.com/Proliantaholic/TaiwanWeatherAQI/releases/download/v3.31/TaiwanWeatherAQI_3.31.rmskin) [![TaiwanWeatherAQI](https://img.shields.io/badge/license-MIT-blue?logo=github)](https://raw.githubusercontent.com/Proliantaholic/TaiwanWeatherAQI/master/LICENSE)
+## Taiwan Weather and AQI (Air Quality Index) 臺灣天氣和空氣品質指標 [![TaiwanWeatherAQI](https://img.shields.io/github/v/release/Proliantaholic/TaiwanWeatherAQI?logo=Rainmeter&color=green)](https://github.com/Proliantaholic/TaiwanWeatherAQI/releases/download/v3.32/TaiwanWeatherAQI_3.32.rmskin) [![TaiwanWeatherAQI](https://img.shields.io/badge/license-MIT-blue?logo=github)](https://raw.githubusercontent.com/Proliantaholic/TaiwanWeatherAQI/master/LICENSE)
 ## Rainmeter Skin / Rainmeter 面板
 > 顯示臺灣天氣資料和環境部空氣品質監測站的空氣品質指標(AQI, Air Quality Index)和PM<sub>2.5</sub>概況
 
 #### 本說明亦發表在: [proliantaholic.blogspot.com](https://proliantaholic.blogspot.com/2019/04/TaiwanWeatherAQI.html)
 
-![proliantaholic.blogspot.com](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhua0yLHNgc_mi2jBy7RqlZr8Ml52G75NTdn2cLrGX-fIBoGfs_UGaqO68YTbaCd1ytu2g7FILXZ77tHWGfKNh7SAkUnKEs15ZeUnlNgw-JubyGbs2GpzDU627sIjbVM28il55WOM_hykPF1x1fDMRt71z_-7FQ1GV8I2kbm-_W0sdHJBgU_t9-RJPo3pVA/s784/skin_v3.24_01.png)
-![proliantaholic.blogspot.com](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgDIT3tWnuyNViwFGXJ6YjQSqKoniMzs855O1iTgsmOVwQal5DNnTd6GE7Cg9DkjkBggrNRGKdHd5_sbVjJkxarAsAqRLUk97mvcDNbasgSepjWhf1AsT-G1LZ1kIR2fxI_LrjD0G_d3V6AyEs00VSymG5D1IA4l9wEzgX2Hu2iwGMTx7zHk9rVQf6OQEjs/s784/skin_v3.30_01.png)
-![proliantaholic.blogspot.com](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhMpii0_n8PqmPkcve2KJwOsPiwiQpA0U9r4vyfuYLRBhDEV4Jt4wiSTlZu4eKPDzjyZrH7BYsGhRkKCwvJdEC0PRiFaW2Zs3ElfZOnH5c1wcu5pCwXQC2VUO7e40yu1AXUSjduZVuNat9jRGt9QkrmqiWO9RRQRNTO7SqQy2W-sD0PCdPDIn8yzLQgRnH4/s786/skin_v3.24_02.png)
+![proliantaholic.blogspot.com](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjGPQ9lxJnv0DuIwlMTTrNkqOe82QjmxOXmtQO0CzQPv39sAlxu2cP3DPrVO1Li-2tctTxs4tWrJ-eFXU6JClQnlPI7VEV5Ujc2hLKdhUUj9WCYCzoqtI3jUetalw2j66bNKx1Sc0FKhtMekz53EfLWQPNrdQfQ3QSn0fH7hwkYwiyw9pNXUouEDptZPcQh/s784/skin_v3.32_01.png)
+![proliantaholic.blogspot.com](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj6mK7gvfeq_klnV19b2P4UlT-bYbPYPmVt8B-1aRZyjlVbL9jnnGFK2wiBMQozZyxQcYbwX-ucW8guwFlWVdxi8Y1UNq_l42WfeC10wsMr7cXL-GXtiGTcszRA4V4NumFm0YdkQDce94IszanK3qzfKax2ZhSdDEsuC8-FGkDdAiPD5hrzPth_b3ETA080/s784/skin_v3.32_02.png)
+![proliantaholic.blogspot.com](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjchkXzTNK3K2IgTU9z6xm2A3YvNLTwO3t6kR6Qp4fBX0PsSsW_JNm93W5YOJNnBceMp7wjET01jhINR1o9rZ3kozStnY96hSqGO4CrbH27O0GRIgZwf0xkhpli7squ5S87k-hzvVye_-6Zy-BOBtfFdQAZvQOO9JOcuLpe2yT0dpPHKlNnXUFvRUWTTDEC/s786/skin_v3.32_03.png)
 ----
 ## 使用說明
 
 ### 安裝
-- 下載 [![TaiwanWeatherAQI](https://img.shields.io/github/v/release/Proliantaholic/TaiwanWeatherAQI?label=TaiwanWeatherAQI.rmskin&logo=Rainmeter&color=green)](https://github.com/Proliantaholic/TaiwanWeatherAQI/releases/download/v3.31/TaiwanWeatherAQI_3.31.rmskin) 然後使用 [Rainmeter](https://www.rainmeter.net) 的 SkinInstaller.exe 安裝.
+- 下載 [![TaiwanWeatherAQI](https://img.shields.io/github/v/release/Proliantaholic/TaiwanWeatherAQI?label=TaiwanWeatherAQI.rmskin&logo=Rainmeter&color=green)](https://github.com/Proliantaholic/TaiwanWeatherAQI/releases/download/v3.32/TaiwanWeatherAQI_3.32.rmskin) 然後使用 [Rainmeter](https://www.rainmeter.net) 的 SkinInstaller.exe 安裝.
 
 ### 註冊申請API Key
 **自Version 3.00起, AQI資料使用環境部環境資料開放平臺API v2取用資料, 需要申請API Key後才可使用**
@@ -73,6 +73,8 @@
 
 ----
 ## Changelog
+### Version 3.32 / 2026-07-23
+- 調整 天氣圖示顏色
 ### Version 3.31 / 2026-07-10
 - 調整 AQI.inc
   - 調整 簡化部分Measure命名
